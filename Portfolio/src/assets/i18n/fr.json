@@ -1,5 +1,10 @@
 {
     "Title" : "Français",
-    "Hello" : "Bonjour"
+    "Hello" : "Bonjour",
+    "About" : "À PROPOS",
+    "Experiences" : "EXPÉRIENCES",
+    "Trainings" : "FORMATIONS",
+    "Projects" : "PROJETS",
+    "Contact" : "CONTACT"
 
 }

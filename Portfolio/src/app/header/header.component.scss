@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px auto 50%;
+}
+
+.title {
+    color: #213253;
+    grid-column: 1;
+}
+
+.menu {
+    float: right;
+    grid-column: 3;
+    color: #213253;
+}
+
+.menu p {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+}

@@ -1,5 +1,10 @@
 {
     "Title" : "日本語",
-    "Hello" : "konichiwa"
+    "Hello" : "konichiwa",
+    "About" : "About",
+    "Experiences" : "Experiences",
+    "Trainings" : "Trainings",
+    "Projects" : "Projects",
+    "Contact" : "Contact"
 
 }

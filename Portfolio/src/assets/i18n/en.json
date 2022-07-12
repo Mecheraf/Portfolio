@@ -1,4 +1,9 @@
 {
     "Title" : "English",
-    "Hello" : "Hello"
+    "Hello" : "Hello",
+    "About" : "ABOUT",
+    "Experiences" : "EXPERIENCES",
+    "Trainings" : "TRAININGS",
+    "Projects" : "PROJECTS",
+    "Contact" : "CONTACT"
 }
