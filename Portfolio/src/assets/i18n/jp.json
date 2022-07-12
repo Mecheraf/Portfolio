@@ -1,10 +1,107 @@
 {
-    "Title" : "日本語",
-    "Hello" : "konichiwa",
-    "About" : "About",
-    "Experiences" : "Experiences",
-    "Trainings" : "Trainings",
-    "Projects" : "Projects",
-    "Contact" : "Contact"
-
+    "title" : "Français",
+    "hello" : "Bonjour",
+    "about" : "À PROPOS",
+    "experiences" : "EXPÉRIENCES",
+    "trainings" : "FORMATIONS",
+    "projects" : "PROJETS",
+    "contact" : "CONTACT",
+    "body":{
+        "about":{
+            "core": "Actuellement étudiant Bachelor à l’ETNA, une école spécialisée en informatique. Je travaille dans deux compagnies en tant qu’alternant : Gamerz et Japan Sweets.\n    Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : Gengoffee.",
+            "competences":{
+                "title":"Voici quelques-unes de mes compétences",
+                "1":"Docker, Kubernetes",
+                "2":"Azure CLI/Azure Portail",
+                "3":"Shopify, Woocommerce",
+                "4":"Angular, Flutter",
+                "5":"Nodejs, Django",
+                "6":"Powershell, Bash"
+            },
+            "CV":"Mon CV",
+            "github":"Mon Github"
+        },
+        "experiences":{
+            "ddm":{
+                "title":"DDM PROD.",
+                "place":"Paris, France",
+                "date":"Septembre 2019 - Octobre 2020",
+                "post":"Développeur Fullstack",
+                "core":"Gestion de bases de données, développement du frontend et backend."
+            },
+            "oishi":{
+                "title":"OISHI MARKET & GAME OFF",
+                "place":"Paris, France",
+                "date":"Octobre 2020 - Octobre 2021",
+                "post":"Développeur Fullstack",
+                "core":"Gestion des bases de données, consultant, développement frontend et backend."
+            },
+            "gazel":{
+                "title":"GazelEnergie",
+                "place":"Paris, France",
+                "date":"Octobre 2021 - Maintenant",
+                "post":"Développeur Infra/DevOps",
+                "core":"Développeur de solution infra pour les différents services de la boîte. Développement de solution conteneur dans le cloud, Azure."
+            },"nagano":{
+                "title":"CHALET CHRISTIANA",
+                "place":"Nagano-ken, Japon",
+                "date":"Août 2019",
+                "post":"Réceptionniste",
+                "core":"Réceptionniste et serveur dans un hôtel Japonais. Un stage d'un mois pour pratiquer la langue Japonaise dans un cadre professionnel."
+            }
+        },
+        "trainings":{
+            "az900":{
+                "title":"Microsoft Certified Azure Fundamentals AZ-900",
+                "date":"Juin 2021",
+                "place":""
+            },
+            "ia900":{
+                "title":"Microsoft Certified Azure AI Fundamentals AI-900",
+                "date":"Janvier 2022",
+                "place":""
+            },
+            "bachelor":{
+                "title":"Bachelor Chargé de projets Web & Mobile",
+                "date":"Septembre 2019 - Octobre 2021",
+                "place":"ETNA, Ivry-sur-Seine"
+            },
+            "licence":{
+                "title":"2année Double Licence Mathématiques et Informatiques",
+                "date":"Septembre 2018 - Juin 2019",
+                "place":"UPEM, Marne-La-Vallée"
+            },
+            "master":{
+                "title":"Master Architecte Logiciel Développeur d'Application",
+                "date":"Octobre 2021 - Octobre 2023",
+                "place":"ETNA, Ivry-sur-Seine"
+            }
+        },
+        "lesson":{
+            "title":"Cours",
+            "iec":{
+                "title":"",
+                "date_place":"",
+                "core":""
+            }
+        },
+        "projects":{
+            "Gengoffee":{
+                "numbers":"Projet en groupe",
+                "title":"Site web Gengoffee",
+                "core":"",
+                "languages":{
+                    "1":"Angular",
+                    "2":"Azure",
+                    "3":"Docker"
+                }
+            }
+        },
+        "contact":{
+            "intro":"Pourquoi ne pas travailler ensemble ?",
+            "contactme":"Me contacter",
+            "core":"",
+            "send":"Envoyer un message"
+        }
+    }
 }
