@@ -5,6 +5,15 @@
     "Experiences" : "EXPÉRIENCES",
     "Trainings" : "FORMATIONS",
     "Projects" : "PROJETS",
-    "Contact" : "CONTACT"
-
+    "Contact" : "CONTACT",
+    "body.about" : "Actuellement étudiant Bachelor à l’ETNA, une école spécialisée en informatique. Je travaille dans deux compagnies en tant qu’alternant : Gamerz et Japan Sweets.\n    Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : Gengoffee.",
+    "body.about.competences.title" : "Voici quelques unes de mes compétences :",
+    "body.about.competences.1" : "Azure",
+    "body.about.competences.2" : "Github",
+    "body.about.competences.3" : "Angular",
+    "body.about.competences.4" : "",
+    "body.experiences.ddm" : "",
+    "body.experiences.gazel" : "",
+    "body.experiences.oishi" : "",
+    "body.experiences.xxx" : ""
 }
