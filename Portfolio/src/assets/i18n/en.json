@@ -1,10 +1,10 @@
 {
-    "title" : "Français",
-    "hello" : "Bonjour",
-    "about" : "À PROPOS",
-    "experiences" : "EXPÉRIENCES",
-    "trainings" : "FORMATIONS",
-    "projects" : "PROJETS",
+    "title" : "English",
+    "hello" : "Hello",
+    "about" : "ABOUT",
+    "experiences" : "EXPERIENCES",
+    "trainings" : "TRAININGS",
+    "projects" : "PROJECTS",
     "contact" : "CONTACT",
     "body":{
         "about":{
