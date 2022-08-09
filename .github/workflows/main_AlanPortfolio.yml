@@ -31,7 +31,7 @@ jobs:
       with:
         push: true
         tags: gengoffeewebsite.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_bfd78841932e4abf82d6369f885b175d }}/alan-portfolio:${{ github.sha }}
-        file: ./Dockerfile
+        file: ../../Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
