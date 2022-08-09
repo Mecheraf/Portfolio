@@ -4,10 +4,8 @@ WORKDIR /Portfolio/
 #We will copy the app cloned from git to the container ./app folder, install it and build it.
 COPY ./Portfolio .
 RUN npm ci && npm run build
-RUN ls
-RUN pwd
 
 #We will deploy the application on a Nginx server and open the 80 port.
 FROM nginx:alpine
-COPY --from=Portfolio-build ./app/dist/portfolio /usr/share/nginx/html
+COPY --from=Portfolio-build ./dist/portfolio /usr/share/nginx/html
 EXPOSE 80
