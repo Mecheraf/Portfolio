@@ -7,5 +7,5 @@ RUN npm ci && npm run build
 
 #We will deploy the application on a Nginx server and open the 80 port.
 FROM nginx:alpine
-COPY --from=Gengoffee-build /app/dist/Gengoffee/browser /usr/share/nginx/html
+COPY --from=Gengoffee-build /app/dist/portfolio /usr/share/nginx/html
 EXPOSE 80
