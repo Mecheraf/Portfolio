@@ -1,21 +1,9 @@
 <app-header></app-header>
 
-<span>{{'title' | translate}}</span>
-
-<span class="form-inline">
-  <select 
-    class="form-control"
-    #selectedLang
-    (change)="switchLanguage(selectedLang.value)">
-    <option *ngFor="let language of translate.getLangs()"
-    [value]="language"
-    [selected]="language === translate.currentLang">
-    {{language}}
-    </option>
-  </select>
-</span>
-
-<span>{{'hello' | translate}}</span>
-
+<app-main></app-main>
 <router-outlet></router-outlet>
+
+
+<app-switch-language></app-switch-language>
+<app-social-networks></app-social-networks>
 

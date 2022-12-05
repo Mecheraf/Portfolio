@@ -1,0 +1,32 @@
+
+<header class="header h-20 md:flex md:pr-20 md:pl-16">
+    <nav
+      *ngIf="showMobileMenu || !isMobile"
+      class="ppmori flex place-items-center fixed flex-col pt-24 gap-5 text-xl inset-0 bg-white z-50 
+        md:flex-row md:text-base md:gap-10 md:relative md:pt-5 md:ml-auto"
+    >
+      <div class="">
+        {{'about'|translate}}
+      </div>
+      <div class="header__link">
+        {{'experiences'|translate}}
+      </div>
+      <div class="">
+        {{'trainings'|translate}}
+      </div>
+      <div class="">
+        {{'projects'|translate}}
+      </div>
+      <div class="">
+        {{'contact'|translate}}
+      </div>
+      <div *ngIf="isMobile" class="text-[#1F3D87] place-self-center">
+        <button (click)="switchLanguage('en')" class="">ENG</button>
+        <button (click)="switchLanguage('fr')" class="ml-8 mr-6">FR</button>
+        <button (click)="switchLanguage('jp')" class="">日本語</button>
+      </div>
+      <img *ngIf="isMobile" class="pt-6" (click)="closeMenu();" src="assets/images/close.svg" />
+  
+    </nav>
+    <img *ngIf="!showMobileMenu && isMobile" class="pt-5 m-auto" (click)="openMenu();" src="assets/images/hamburger-menu.svg">
+  </header>
