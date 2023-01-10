@@ -10,7 +10,7 @@
         "about":{
             "core": "Actuellement étudiant <span class=\"text-red-500\">Master à l’ETNA</span>, une école spécialisée en informatique. Je travaille en tant qu’alternant DevOps/InfraSys à GazelEnergie.<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span class=\"font-bold text-red-500\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
             "competences":{
-                "title":"Voici quelques-unes de mes compétences",
+                "title":"Voici quelques-unes de mes compétences :",
                 "1":"Docker, Kubernetes",
                 "2":"Azure CLI/Azure Portail",
                 "3":"Shopify, Woocommerce",
@@ -80,9 +80,9 @@
         "cours":{
             "title":"Cours",
             "iec":{
-                "title":"",
-                "date_place":"",
-                "core":""
+                "title":"IEC Nichibei Kaiwa Gakuin",
+                "place":"Tokyo, Japon",
+                "core":"Trois semaines d’apprentissage intensif de la Langue Japonaise pour la préparation d’un stage."
             }
         },
         "projects":{
@@ -100,7 +100,7 @@
         "contact":{
             "intro":"Pourquoi ne pas travailler ensemble ?",
             "contactme":"Me contacter",
-            "core":"",
+            "core":"Que ça soit en France ou ailleurs, n'hésitez pas à me parler de votre projet ! Vous pouvez me contacter par mail ou sur les réseaux. 🙂",
             "send":"Envoyer un message"
         }
     }

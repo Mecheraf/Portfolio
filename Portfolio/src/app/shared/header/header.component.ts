@@ -30,7 +30,6 @@ export class HeaderComponent implements OnInit {
     this.translate.use(lang);
   }
 
-  @HostListener('window:resize', ['$event'])
   getWindowSize() {
     this.isMobile = window.innerWidth < 768;
   }
