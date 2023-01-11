@@ -6,19 +6,20 @@
         md:flex-row md:text-base md:gap-10 md:relative md:pt-5 md:ml-auto"
     >
       <div class="">
-        {{'about'|translate}}
+        <a href="#about">{{'about'|translate}}</a>
       </div>
       <div class="header__link">
-        {{'experiences'|translate}}
+        <a href="#experiences">{{'experiences'|translate}}</a>
       </div>
       <div class="">
-        {{'trainings'|translate}}
+        <a href="#trainings">{{'trainings'|translate}}</a>
       </div>
       <div class="">
         {{'projects'|translate}}
       </div>
       <div class="text-[#D02B32] border border-solid border-[#D02B32] w-fit py-2 px-6 hover:bg-red-600 hover:text-white">
-        {{'contact'|translate}}
+        <a href="#contact">{{'contact'|translate}}</a>
+
       </div>
       <div *ngIf="isMobile" class="text-[#1F3D87] place-self-center">
         <button (click)="switchLanguage('en')" class="">ENG</button>
