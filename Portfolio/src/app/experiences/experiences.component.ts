@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experiences.component.scss']
 })
 export class ExperiencesComponent implements OnInit {
-
+  ddm = false;
+  gazel = false;
+  oishi = false;
+  nagano = false;
   constructor() { }
 
   ngOnInit(): void {

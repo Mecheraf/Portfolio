@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectorRef, HostListener} from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef, HostListener, ElementRef} from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -33,5 +33,6 @@ export class HeaderComponent implements OnInit {
   getWindowSize() {
     this.isMobile = window.innerWidth < 768;
   }
+
 
 }

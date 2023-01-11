@@ -8,7 +8,7 @@
     "contact" : "CONTACT",
     "body":{
         "about":{
-            "core": "Actuellement étudiant <span class=\"text-red-500\">Master à l’ETNA</span>, une école spécialisée en informatique. Je travaille en tant qu’alternant DevOps/InfraSys à GazelEnergie.<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span class=\"font-bold text-red-500\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
+            "core": "Actuellement étudiant <span class=\"lato text-[#D02B32]\">Master à l’ETNA</span>, une école spécialisée en informatique. Je travaille en tant qu’alternant DevOps/InfraSys à GazelEnergie.<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
             "competences":{
                 "title":"Voici quelques-unes de mes compétences :",
                 "1":"Docker, Kubernetes",
@@ -41,7 +41,7 @@
                 "place":"Paris, France",
                 "date":"Octobre 2021 - Maintenant",
                 "post":"Développeur Infra/DevOps",
-                "core":"Développeur de solution infra pour les différents services de la boîte. Développement de solution conteneur dans le cloud, Azure."
+                "core":"Développeur de solution infra pour les différents services de la boîte. Développement de solution conteneur dans le cloud, <span class=\"lato\">Azure</span>"
             },"nagano":{
                 "title":"CHALET CHRISTIANA",
                 "place":"Nagano-ken, Japon",
