@@ -1,19 +1,39 @@
 @font-face {
-    font-family: "Lato";
-    src: url(../fonts/Lato/Lato-Regular.ttf) format("opentype");
-  }
+    font-family: "Lato";    
+    src: url(../fonts/Lato/Lato-Regular.ttf) format("opentype");    
+}
 
-  @font-face {
-    font-family: "Lato-bold";
-    src: url(../fonts/Lato/Lato-Bold.ttf) format("opentype");
-  }
+@font-face {
+    font-family: "Lato-bold";   
+    src: url(../fonts/Lato/Lato-Bold.ttf) format("opentype");   
+}
 
-  @font-face {
-    font-family: "Lato-light";
-    src: url(../fonts/Lato/Lato-Light.ttf) format("opentype");
-  }
+@font-face {
+    font-family: "Lato-light";  
+    src: url(../fonts/Lato/Lato-Light.ttf) format("opentype");  
+}
 
-  @font-face {
-    font-family: "Lato-thin";
-    src: url(../fonts/Lato/Lato-Thin.ttf) format("opentype");
-  }
+@font-face {
+    font-family: "Lato-thin";   
+    src: url(../fonts/Lato/Lato-Thin.ttf) format("opentype");   
+}
+
+@font-face {
+    font-family: "PPEiko";    
+    src: url(../fonts/PPEiko/ppeiko-medium.otf) format("opentype");    
+}
+
+@font-face {
+    font-family: "PPEiko-heavy";   
+    src: url(../fonts/PPEiko/ppeiko-heavy.otf) format("opentype");   
+}
+
+@font-face {
+    font-family: "PPEiko-thin";  
+    src: url(../fonts/PPEiko/ppeiko-thin.otf) format("opentype");  
+}
+
+@font-face {
+    font-family: "PPMori";   
+    src: url(../fonts/PPMori/PPMori-Regular.otf) format("opentype");   
+}
