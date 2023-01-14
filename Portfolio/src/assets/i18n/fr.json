@@ -8,9 +8,9 @@
     "contact" : "CONTACT",
     "body":{
         "about":{
-            "core": "Actuellement étudiant <span class=\"text-red-500\">Master à l’ETNA</span>, une école spécialisée en informatique. Je travaille en tant qu’alternant DevOps/InfraSys à GazelEnergie.<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span style=\"font-bold text-red-500\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
+            "core": "Actuellement étudiant <span class=\"lato text-[#D02B32]\">Master à l’ETNA</span>, une école spécialisée en informatique. Je travaille en tant qu’alternant DevOps/InfraSys à GazelEnergie.<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
             "competences":{
-                "title":"Voici quelques-unes de mes compétences",
+                "title":"Voici quelques-unes de mes compétences :",
                 "1":"Docker, Kubernetes",
                 "2":"Azure CLI/Azure Portail",
                 "3":"Shopify, Woocommerce",
@@ -41,7 +41,7 @@
                 "place":"Paris, France",
                 "date":"Octobre 2021 - Maintenant",
                 "post":"Développeur Infra/DevOps",
-                "core":"Développeur de solution infra pour les différents services de la boîte. Développement de solution conteneur dans le cloud, Azure."
+                "core":"Développeur de solution infra pour les différents services de la boîte. Développement de solution conteneur dans le cloud, <span class=\"lato\">Azure</span>"
             },"nagano":{
                 "title":"CHALET CHRISTIANA",
                 "place":"Nagano-ken, Japon",
@@ -80,13 +80,13 @@
         "cours":{
             "title":"Cours",
             "iec":{
-                "title":"",
-                "date_place":"",
-                "core":""
+                "title":"IEC Nichibei Kaiwa Gakuin",
+                "place":"Tokyo, Japon",
+                "core":"Trois semaines d’apprentissage intensif de la Langue Japonaise pour la préparation d’un stage."
             }
         },
         "projects":{
-            "Gengoffee":{
+            "gengoffee":{
                 "numbers":"Projet en groupe",
                 "title":"Site web Gengoffee",
                 "core":"",
@@ -100,7 +100,7 @@
         "contact":{
             "intro":"Pourquoi ne pas travailler ensemble ?",
             "contactme":"Me contacter",
-            "core":"",
+            "core":"Que ça soit en France ou ailleurs, n'hésitez pas à me parler de votre projet ! Vous pouvez me contacter par mail ou sur les réseaux. 🙂",
             "send":"Envoyer un message"
         }
     }

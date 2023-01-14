@@ -1,24 +1,25 @@
 
-<header class="header h-20 md:flex md:pr-20 md:pl-16 text-[#213253]">
+<header class="h-20 md:flex md:pr-20 md:pl-16 text-[#213253]">
     <nav
       *ngIf="showMobileMenu || !isMobile"
-      class="ppmori flex place-items-center fixed flex-col pt-24 gap-5 text-xl inset-0 bg-white z-50 
+      class="flex place-items-center fixed flex-col pt-24 gap-5 text-xl inset-0 bg-white z-50 
         md:flex-row md:text-base md:gap-10 md:relative md:pt-5 md:ml-auto"
     >
       <div class="">
-        {{'about'|translate}}
+        <a href="#about">{{'about'|translate}}</a>
       </div>
       <div class="header__link">
-        {{'experiences'|translate}}
+        <a class="" href="#experiences">{{'experiences'|translate}}</a>
       </div>
       <div class="">
-        {{'trainings'|translate}}
+        <a href="#trainings">{{'trainings'|translate}}</a>
       </div>
       <div class="">
-        {{'projects'|translate}}
+        <a href="#projects">{{'projects'|translate}}</a>
       </div>
-      <div class="">
-        {{'contact'|translate}}
+      <div class="text-[#D02B32] border border-solid border-[#D02B32] w-fit py-2 px-6 hover:bg-[#D02B32] hover:text-white">
+        <a href="#contact">{{'contact'|translate}}</a>
+
       </div>
       <div *ngIf="isMobile" class="text-[#1F3D87] place-self-center">
         <button (click)="switchLanguage('en')" class="">ENG</button>
