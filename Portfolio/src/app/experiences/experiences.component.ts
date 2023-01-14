@@ -15,4 +15,20 @@ export class ExperiencesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  displayExperience(id:string) {
+    const experienceBox = document.getElementById(id); 
+    if(experienceBox){
+      experienceBox.style.transform = 'translateX(0)'
+    }
+    console.log("in")
+  }
+
+  hideExperience(id:string) {
+    const experienceBox = document.getElementById(id); 
+    if(experienceBox){
+      experienceBox.style.transform = 'translateX(100vw)'
+    }
+    console.log("out")
+  }
+
 }

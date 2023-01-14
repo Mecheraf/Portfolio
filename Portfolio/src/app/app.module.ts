@@ -17,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './main/main.component';
 import { SwitchLanguageComponent } from './shared/switch-language/switch-language.component';
 import { SocialNetworksComponent } from './shared/social-networks/social-networks.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { SocialNetworksComponent } from './shared/social-networks/social-network
         useFactory: httpTranslaterLoader,
         deps: [HttpClient]
       }
-    })
+    }),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
