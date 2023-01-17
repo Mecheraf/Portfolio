@@ -1,7 +1,7 @@
-<div class="w-full mt-52">
-    <div class="w-24 mt-4 mr-7 border-solid border border-[#D02B32] float-left"></div>
+<div class="w-full mt-32 md:mt-52">
+    <div class="w-12 mt-4 mr-7 border-solid border border-[#D02B32] float-left"></div>
     <h1 class="text-2xl pb-16 ppeiko">{{'trainings'|translate}}</h1>
-    <div class="w-full m-auto lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-y-14 gap-x-14 pb-48 lato">
+    <div class="w-full child:mt-9 child:h-full child:m-auto lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-y-14 lg:gap-x-14 pb-48 lato">
         <div class="w-80 border border-solid border-[#D02B32] pl-5 pt-7 pb-8 pr-8">
             <div class="">{{'body.trainings.master.title'|translate}}</div>
             <div class="text-[#D02B32] mt-3 mb-3">{{'body.trainings.master.date'|translate}}</div>
@@ -26,14 +26,16 @@
             <div>{{'body.trainings.licence.place'|translate}}</div>
         </div>-->
 
-        <div class="xl:col-start-2 xl:col-end-4 relative">
-            <img src="./assets/images/training_arrow.svg" class="float-left mr-8 mt-20">
-            <h1 class="text-3xl mb-2 mt-16 ppeiko" >{{'body.cours.title'|translate}}</h1>
-            <div class="h-full w-px border-[#D02B32] border border-solid absolute top-0 left-48"></div>
-            <div class="absolute left-72 top-0 lato">
-                <h1 class="mt-9 ">{{'body.cours.iec.title'|translate}}</h1>
+        <div class="w-full h-full lg:col-span-2 xl:col-start-2 xl:col-end-4 relative">
+            <div class="w-2/5 lg:float-left lg:h-full m-auto">
+                <img src="./assets/images/training_arrow.svg" class="hidden lg:block float-left mr-8 mt-20">
+                <h1 class="text-3xl mb-2 mt-4 md:mt-16 ppeiko text-center lg:text-left" >{{'body.cours.title'|translate}}</h1>
+            </div>
+            <div class="hidden lg:block h-full w-px border-[#D02B32] border border-solid absolute top-0 left-48"></div>
+            <div class="m-auto lato w-3/5 text-center">
+                <h1 class="mt-4 md:mt-9 ">{{'body.cours.iec.title'|translate}}</h1>
                 <h2 class="">{{'body.cours.iec.place'|translate}}</h2>
-                <p class="mt-5 w-4/5 lato-light">{{'body.cours.iec.core'|translate}}</p>
+                <p class="mt-5 lato-light" [innerHtml] ="'body.cours.iec.core'|translate"></p>
             </div>
         </div>
    </div>
