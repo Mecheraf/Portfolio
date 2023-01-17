@@ -1,36 +1,37 @@
-<div class="grid grid-flow-col gap-x-44 mt-52">
-    <div class="w-80 h-96 bg-[#213253] float-left">
+<div class="md:grid md:grid-flow-col md:gap-x-[10vw] mt-20 md:mt-52">
+    <div class="w-40 h-48 lg:w-80 lg:h-96 bg-[#213253] float-left hidden md:block">
         <div class="w-24 mt-4 -mr-16 border-solid border border-[#D02B32] float-right"></div>
 
     </div>
    
-    <div class="lato-light w-11/12">
+    <div class="lato-light sm:w-11/12">
+        <div class="w-12 mt-4 mr-7 border-solid border border-[#D02B32] float-left md:hidden"></div>
         <h1 class="text-2xl ppeiko">{{'about'|translate}}</h1>
         <p [innerHtml]="'body.about.core'|translate" class="mt-8"></p>
         <h2 class="mb-5 mt-9 text-lg lato">{{'body.about.competences.title'|translate}}</h2>
-        <div class="grid grid-rows-3 grid-cols-2 gap-x-8 mb-14 text-lg">
+        <div class="grid grid-rows-3 grid-cols-2 md:gap-x-8 mb-6 md:mb-14 text-base md:text-lg">
             <div>
-                <img src="./assets/images/skills_arrow.svg" class="float-left mt-3 mr-3">
+                <img src="./assets/images/skills_arrow.svg" class="float-left mt-2 md:mt-3 mr-2 md:mr-3">
                 <p class="">{{'body.about.competences.1'|translate}}</p>
             </div>
             <div>
-                <img src="./assets/images/skills_arrow.svg" class="float-left mt-3 mr-3">
+                <img src="./assets/images/skills_arrow.svg" class="float-left mt-2 md:mt-3 mr-2 md:mr-3">
                 <p class="">{{'body.about.competences.2'|translate}}</p>
             </div>
             <div>
-                <img src="./assets/images/skills_arrow.svg" class="float-left mt-3 mr-3">
+                <img src="./assets/images/skills_arrow.svg" class="float-left mt-2 md:mt-3 mr-2 md:mr-3">
                 <p class="">{{'body.about.competences.3'|translate}}</p>
             </div>
             <div>
-                <img src="./assets/images/skills_arrow.svg" class="float-left mt-3 mr-3">
+                <img src="./assets/images/skills_arrow.svg" class="float-left mt-2 md:mt-3 mr-2 md:mr-3">
                 <p class="">{{'body.about.competences.4'|translate}}</p>
             </div>
             <div>
-                <img src="./assets/images/skills_arrow.svg" class="float-left mt-3 mr-3">
+                <img src="./assets/images/skills_arrow.svg" class="float-left mt-2 md:mt-3 mr-2 md:mr-3">
                 <p class="">{{'body.about.competences.5'|translate}}</p>
             </div>
             <div>
-                <img src="./assets/images/skills_arrow.svg" class="float-left mt-3 mr-3">
+                <img src="./assets/images/skills_arrow.svg" class="float-left mt-2 md:mt-3 mr-2 md:mr-3">
                 <p class="">{{'body.about.competences.6'|translate}}</p>
             </div>
         </div>

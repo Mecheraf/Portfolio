@@ -5,20 +5,20 @@
       class="flex place-items-center fixed flex-col pt-24 gap-5 text-xl inset-0 bg-white z-50 
         md:flex-row md:text-base md:gap-10 md:relative md:pt-5 md:ml-auto"
     >
-      <div class="">
-        <a href="#about">{{'about'|translate}}</a>
+      <div class="min-w-fit">
+        <a href="#about" (click)="closeMenu();">{{'about'|translate}}</a>
       </div>
       <div class="header__link">
-        <a class="" href="#experiences">{{'experiences'|translate}}</a>
+        <a class="" href="#experiences" (click)="closeMenu();">{{'experiences'|translate}}</a>
       </div>
       <div class="">
-        <a href="#trainings">{{'trainings'|translate}}</a>
+        <a href="#trainings" (click)="closeMenu();">{{'trainings'|translate}}</a>
       </div>
       <div class="">
-        <a href="#projects">{{'projects'|translate}}</a>
+        <a href="#projects" (click)="closeMenu();">{{'projects'|translate}}</a>
       </div>
       <div class="text-[#D02B32] border border-solid border-[#D02B32] w-fit py-2 px-6 hover:bg-[#D02B32] hover:text-white">
-        <a href="#contact">{{'contact'|translate}}</a>
+        <a href="#contact" (click)="closeMenu();">{{'contact'|translate}}</a>
 
       </div>
       <div *ngIf="isMobile" class="text-[#1F3D87] place-self-center">
@@ -26,8 +26,8 @@
         <button (click)="switchLanguage('fr')" class="ml-8 mr-6">FR</button>
         <button (click)="switchLanguage('jp')" class="">日本語</button>
       </div>
-      <img *ngIf="isMobile" class="pt-6" (click)="closeMenu();" src="assets/images/close.svg" />
+      <img *ngIf="isMobile" class="pt-6" (click)="closeMenu();" src="./assets/images/close.svg" />
   
     </nav>
-    <img *ngIf="!showMobileMenu && isMobile" class="pt-5 m-auto" (click)="openMenu();" src="assets/images/hamburger-menu.svg">
+    <img *ngIf="!showMobileMenu && isMobile" class="pt-5 m-auto" (click)="openMenu();" src="./assets/images/hamburger-menu.svg">
   </header>

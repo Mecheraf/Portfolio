@@ -82,7 +82,7 @@
             "iec":{
                 "title":"IEC Nichibei Kaiwa Gakuin",
                 "place":"Tokyo, Japon",
-                "core":"Trois semaines d’apprentissage intensif de la Langue Japonaise pour la préparation d’un stage."
+                "core":"Trois semaines d’apprentissage intensif de la <span class=\"lato text-[#D02B32]\">Langue Japonaise</span> pour la préparation d’un stage."
             }
         },
         "projects":{
