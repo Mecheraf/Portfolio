@@ -41,6 +41,42 @@
         width: 7px;
         height: 7px;
     }
+
+    .projectTitle{
+        grid-area:pro-title;
+    }
+
+    .projectImage{
+        grid-area:pro-image;
+    }
+
+    .projectDesc{
+        grid-area:pro-desc;
+    }
+    .techno{
+        grid-area:techno;
+    }
+
+    .containerExperience{
+        display:grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "pro-image pro-image pro-image pro-title pro-title"
+        "pro-image pro-image pro-image pro-desc pro-desc"
+        "pro-image pro-image pro-image techno techno"
+    }
+
+    .containerExperienceMobile{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+        "pro-title pro-title" 
+        "pro-image pro-desc"
+        "pro-image pro-desc"
+        "techno techno"
+    }
   
 }
 
@@ -69,5 +105,3 @@
 }
 
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
