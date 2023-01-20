@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: "Lato-italic";   
+    src: url(../fonts/Lato/Lato-Italic.ttf) format("opentype");   
+}
+
+@font-face {
     font-family: "Lato-light";  
     src: url(../fonts/Lato/Lato-Light.ttf) format("opentype");  
 }
