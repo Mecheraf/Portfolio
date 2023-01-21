@@ -89,11 +89,20 @@
             "gengoffee":{
                 "numbers":"Projet en groupe",
                 "title":"Site web Gengoffee",
-                "core":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, ",
+                "core":"Le site web de l'association Franco-Japonaise Gengoffee à Paris. Le besoin de l'association était d'avoir un site web afin de répertorier les informations relatives à l'association, de les contacter via un formulaire, les événements à venir et de pouvoir s'y inscrire. <br> Fait avec <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> et <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
                 "languages":{
                     "1":"Angular",
                     "2":"Azure",
-                    "3":"Docker"
+                    "3":"TypeScript"
+                }
+            },
+            "catherinethan":{
+                "numbers":"Projet en groupe",
+                "title":"Portfolio Catherine Than",
+                "core":"Le portfolio de Catherine Than, une amie Directrice Artistique. Elle est aussi celle qui a fait le design de mon portfolio. <br>Fait avec <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> et <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
+                "languages":{
+                    "1":"Wordpress",
+                    "2":"JaveScrpit"
                 }
             }
         },

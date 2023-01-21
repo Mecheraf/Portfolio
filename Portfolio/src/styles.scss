@@ -67,6 +67,27 @@
         "pro-image pro-image pro-image techno techno"
     }
 
+    .containerExperienceLeft{
+        display:grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "pro-title pro-title pro-image pro-image pro-image"
+        "pro-desc pro-desc pro-image pro-image pro-image"
+        "techno techno pro-image pro-image pro-image"
+    }
+
+    .containerExperienceMobileLeft{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+        "pro-title pro-title" 
+        "pro-desc pro-image"
+        "pro-desc pro-image"
+        "techno techno"
+    }
+
     .containerExperienceMobile{
         display:grid;
         grid-template-columns: repeat(2, 1fr);
@@ -90,6 +111,10 @@
 
 .lato-bold {
     font-family: 'Lato-bold';
+}
+
+.lato-italic {
+    font-family: 'Lato-italic';
 }
 
 .ppeiko {
