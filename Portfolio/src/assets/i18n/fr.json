@@ -8,6 +8,7 @@
     "contact" : "CONTACT",
     "body":{
         "about":{
+            "title":"À propos",
             "core": "Actuellement étudiant <span class=\"lato text-[#D02B32]\">Master à l’ETNA</span>, une école spécialisée en informatique. Je travaille en tant qu’alternant DevOps/InfraSys à GazelEnergie.<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
             "competences":{
                 "title":"Voici quelques-unes de mes compétences :",
@@ -22,6 +23,7 @@
             "github":"Mon Github"
         },
         "experiences":{
+            "title":"Expériences",
             "ddm":{
                 "title":"DDM PROD.",
                 "place":"Paris, France",
@@ -51,6 +53,7 @@
             }
         },
         "trainings":{
+            "title":"Formations",
             "az900":{
                 "title":"Microsoft Certified Azure Fundamentals AZ-900",
                 "date":"Juin 2021",
@@ -86,6 +89,7 @@
             }
         },
         "projects":{
+            "title":"Projets",
             "gengoffee":{
                 "numbers":"Projet en groupe",
                 "title":"Site web Gengoffee",
@@ -99,7 +103,7 @@
             "catherinethan":{
                 "numbers":"Projet en groupe",
                 "title":"Portfolio Catherine Than",
-                "core":"Le portfolio de Catherine Than, une amie Directrice Artistique. Elle est aussi celle qui a fait le design de mon portfolio. <br>Fait avec <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> et <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
+                "core":"Le portfolio de Catherine Than, UI designer. Elle est aussi celle qui a fait le design de mon portfolio. <br>Fait avec <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> et <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
                 "languages":{
                     "1":"Wordpress",
                     "2":"JaveScrpit"
