@@ -42,3 +42,8 @@
     font-family: "PPMori";   
     src: url(../fonts/PPMori/PPMori-Regular.otf) format("opentype");   
 }
+
+@font-face {
+    font-family: "Fangsong";   
+    src: url(../fonts/fangsong/fangsong-std.ttf) format("opentype");   
+}

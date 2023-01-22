@@ -1,13 +1,16 @@
 <div class="md:grid md:grid-flow-col md:gap-x-[10vw] mt-20 md:mt-52">
-    <div class="w-40 h-48 lg:w-80 lg:h-96 bg-[#213253] float-left hidden md:block">
+    <div class="w-40 h-48 lg:w-80 lg:h-96 bg-[#213253] float-left hidden md:block relative">
+        <img src="./assets/images/photo-portfolio.png" class="absolute h-full w-full p-5">
         <div class="w-24 mt-4 -mr-16 border-solid border border-[#D02B32] float-right"></div>
+        
 
     </div>
+    
    
     <div class="lato-light sm:w-11/12">
         <div class="w-12 mt-4 mr-7 border-solid border border-[#D02B32] float-left md:hidden"></div>
-        <h1 class="text-2xl ppeiko">{{'about'|translate}}</h1>
-        <p [innerHtml]="'body.about.core'|translate" class="mt-8"></p>
+        <h1 class="text-3xl ppeiko xl:text-4xl">{{'body.about.title'|translate}}</h1>
+        <p [innerHtml]="'body.about.core'|translate" class="mt-8 md:text-xl"></p>
         <h2 class="mb-5 mt-9 text-lg lato">{{'body.about.competences.title'|translate}}</h2>
         <div class="grid grid-rows-3 grid-cols-2 md:gap-x-8 mb-6 md:mb-14 text-base md:text-lg">
             <div>
