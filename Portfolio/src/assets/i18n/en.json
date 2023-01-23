@@ -8,9 +8,10 @@
     "contact" : "CONTACT",
     "body":{
         "about":{
-            "core": "Actuellement étudiant <span class=\"text-red-500\">Master à l’ETNA</span>, une école spécialisée en informatique. Je travaille en tant qu’alternant DevOps/InfraSys à GazelEnergie.<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span style=\"font-bold text-red-500\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
+            "title":"About",
+            "core": "Currently a studying for a <span class=\"lato text-[#D02B32]\">Master's Degree</span> at Etna, a computer science school, I’m also working as a DevOps in an energy company: GazelEnergie. <br><br>I’m a sharp student, a great lover of sciences, I always strive to learn as far as possible in a domain. Besides my main studies, I’m learning Japanese as a hobby and also leading an association for French, English and Japanese Language Exchange: <span class=\"lato text-[#D02B32]\">Gengoffee</span>.",
             "competences":{
-                "title":"Voici quelques-unes de mes compétences",
+                "title":"Here's some of my hardskills :",
                 "1":"Docker, Kubernetes",
                 "2":"Azure CLI/Azure Portail",
                 "3":"Shopify, Woocommerce",
@@ -18,90 +19,102 @@
                 "5":"Nodejs, Django",
                 "6":"Powershell, Bash"
             },
-            "CV":"Mon CV",
-            "github":"Mon Github"
+            "CV":"My CV",
+            "github":"My Github"
         },
         "experiences":{
+            "title":"Experiences",
             "ddm":{
                 "title":"DDM PROD.",
                 "place":"Paris, France",
-                "date":"Septembre 2019 - Octobre 2020",
-                "post":"Développeur Fullstack",
-                "core":"Gestion de bases de données, développement du frontend et backend."
+                "date":"September 2019 - October 2020",
+                "post":"Fullstack Developer",
+                "core":"Database management, website’s design and architecture."
             },
             "oishi":{
                 "title":"OISHI MARKET & GAME OFF",
                 "place":"Paris, France",
-                "date":"Octobre 2020 - Octobre 2021",
-                "post":"Développeur Fullstack",
-                "core":"Gestion des bases de données, consultant, développement frontend et backend."
+                "date":"October 2020 - October 2021",
+                "post":"Fullstack Developer",
+                "core":"Website's design, architecture, database management and algorithms."
             },
             "gazel":{
-                "title":"GazelEnergie",
+                "title":"GAZELENERGIE",
                 "place":"Paris, France",
-                "date":"Octobre 2021 - Maintenant",
-                "post":"Développeur Infra/DevOps",
-                "core":"Développeur de solution infra pour les différents services de la boîte. Développement de solution conteneur dans le cloud, Azure."
+                "date":"October 2021 - Now",
+                "post":"Infra Developer/Devops",
+                "core":"Development of infrastructure’s scripts, cloud architecture and cloud deployment on <span class=\"lato\">Azure.</span>"
             },"nagano":{
                 "title":"CHALET CHRISTIANA",
-                "place":"Nagano-ken, Japon",
-                "date":"Août 2019",
-                "post":"Réceptionniste",
-                "core":"Réceptionniste et serveur dans un hôtel Japonais. Un stage d'un mois pour pratiquer la langue Japonaise dans un cadre professionnel."
+                "place":"Nagano-ken, Japan",
+                "date":"August 2019",
+                "post":"Receptionist",
+                "core":"Services and receptionning in a hotel in Japan. I did the internship to practice and improve my Japanese for a month."
             }
         },
         "trainings":{
+            "title":"Trainings",
             "az900":{
                 "title":"Microsoft Certified Azure Fundamentals AZ-900",
-                "date":"Juin 2021",
+                "date":"June 2021",
                 "place":""
             },
             "ia900":{
                 "title":"Microsoft Certified Azure AI Fundamentals AI-900",
-                "date":"Janvier 2022",
+                "date":"January 2022",
                 "place":""
             },
             "bachelor":{
-                "title":"Bachelor Chargé de projets Web & Mobile",
-                "date":"Septembre 2019 - Octobre 2021",
+                "title":"Bachelor’s Degree in Software Architect & Application's Developer",
+                "date":"September 2019 - October 2021",
                 "place":"ETNA, Ivry-sur-Seine"
             },
             "licence":{
                 "title":"2année Double Licence Mathématiques et Informatiques",
-                "date":"Septembre 2018 - Juin 2019",
+                "date":"September 2018 - June 2019",
                 "place":"UPEM, Marne-La-Vallée"
             },
             "master":{
-                "title":"Master Architecte Logiciel Développeur d'Application",
-                "date":"Octobre 2021 - Octobre 2023",
+                "title":"Master's Degree in Software Architect & Application's Developer",
+                "date":"October 2021 - October 2023",
                 "place":"ETNA, Ivry-sur-Seine"
             }
         },
-        "lesson":{
-            "title":"Cours",
+        "cours":{
+            "title":"Lesson",
             "iec":{
-                "title":"",
-                "date_place":"",
-                "core":""
+                "title":"IEC Nichibei Kaiwa Gakuin",
+                "place":"Tokyo, Japan",
+                "core":"Three weeks of <span class=\"lato text-[#D02B32]\">learning Japanese</span> . The basics to prepare an Internship in Japan."
             }
         },
         "projects":{
-            "Gengoffee":{
-                "numbers":"Projet en groupe",
-                "title":"Site web Gengoffee",
-                "core":"",
+            "title":"Projects",
+            "gengoffee":{
+                "numbers":"Group's project",
+                "title":"Gengoffee's website",
+                "core":"The website for a French-Japanese association based in Paris, Gengoffee. The association required a website to categorize their events and the informations concerning the association, a contact form, a register form for their events and a back office to manage the events.<br>Made with <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> and <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
                 "languages":{
                     "1":"Angular",
                     "2":"Azure",
-                    "3":"Docker"
+                    "3":"TypeScript"
+                }
+            },
+            "catherinethan":{
+                "numbers":"Group's project",
+                "title":"Portfolio Catherine Than's",
+                "core":"Catherine Than's portofolio, an UI Designer. She is also the one who made my portfolio's design. <br>Made with <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> and <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
+                "languages":{
+                    "1":"Wordpress",
+                    "2":"JaveScrpit"
                 }
             }
         },
         "contact":{
-            "intro":"Pourquoi ne pas travailler ensemble ?",
-            "contactme":"Me contacter",
-            "core":"",
-            "send":"Envoyer un message"
+            "intro":"Why not work together ?",
+            "contactme":"Contact me",
+            "core":"Either in France or all over the world, I'm not afraid of moving away, feel free to contact me to talk about your projects. You can send an email or directly DM me on social networks. 🙂",
+            "send":"Show email"
         }
     }
 }
