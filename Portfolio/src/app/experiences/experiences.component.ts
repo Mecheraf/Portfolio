@@ -15,10 +15,11 @@ export class ExperiencesComponent implements OnInit {
   }
 
   displayExperience(id:string) {
-    if(id == "gazel"){
-      if(this.gazel==true){
-        this.gazel = false;
-        return;
+    if(this.gazel==true){
+      this.gazel = false;
+      const gazelBox = document.getElementById("gazel");
+      if(gazelBox){
+        gazelBox.style.transform = 'translateX(100vw)'
       }
     }
     const experienceBox = document.getElementById(id); 
