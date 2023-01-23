@@ -6,21 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experiences.component.scss']
 })
 export class ExperiencesComponent implements OnInit {
-  ddm = false;
-  gazel = false;
-  oishi = false;
-  nagano = false;
+
+  gazel = true;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
   displayExperience(id:string) {
+    if(id == "gazel"){
+      if(this.gazel==true){
+        this.gazel = false;
+        return;
+      }
+    }
     const experienceBox = document.getElementById(id); 
     if(experienceBox){
       experienceBox.style.transform = 'translateX(0)'
     }
-    console.log("in")
+    
   }
 
   hideExperience(id:string) {
@@ -28,6 +33,7 @@ export class ExperiencesComponent implements OnInit {
     if(experienceBox){
       experienceBox.style.transform = 'translateX(100vw)'
     }
+    
     console.log("out")
   }
 
