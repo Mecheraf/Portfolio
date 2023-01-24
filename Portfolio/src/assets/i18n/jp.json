@@ -1,16 +1,18 @@
 {
-    "title" : "Français",
-    "hello" : "Bonjour",
-    "about" : "À PROPOS",
+    "title" : "Japonais",
+    "languagecode":"en",
+    "hello" : "こんにちは",
+    "about" : "概要",
     "experiences" : "EXPÉRIENCES",
     "trainings" : "FORMATIONS",
-    "projects" : "PROJETS",
-    "contact" : "CONTACT",
+    "projects" : "プロジェクト",
+    "contact" : "コンタクト",
     "body":{
         "about":{
-            "core": "Actuellement étudiant <span class=\"text-red-500\">Master à l’ETNA</span>, une école spécialisée en informatique. Je travaille en tant qu’alternant DevOps/InfraSys à GazelEnergie.<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span style=\"font-bold text-red-500\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
+            "title":"概要",
+            "core": "Actuellement étudiant <span class=\"lato text-[#D02B32]\">Master à l’ETNA</span>, une école spécialisée en informatique. Je travaille en tant qu’alternant DevOps/InfraSys à GazelEnergie.<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
             "competences":{
-                "title":"Voici quelques-unes de mes compétences",
+                "title":"Voici quelques-unes de mes compétences :",
                 "1":"Docker, Kubernetes",
                 "2":"Azure CLI/Azure Portail",
                 "3":"Shopify, Woocommerce",
@@ -18,89 +20,101 @@
                 "5":"Nodejs, Django",
                 "6":"Powershell, Bash"
             },
-            "CV":"Mon CV",
-            "github":"Mon Github"
+            "CV":"私のCV",
+            "github":"私のGitHub"
         },
         "experiences":{
+            "title":"Expériences",
             "ddm":{
                 "title":"DDM PROD.",
-                "place":"Paris, France",
-                "date":"Septembre 2019 - Octobre 2020",
+                "place":"Paris, フランス",
+                "date":"2019年9月 - 2020年10月",
                 "post":"Développeur Fullstack",
                 "core":"Gestion de bases de données, développement du frontend et backend."
             },
             "oishi":{
                 "title":"OISHI MARKET & GAME OFF",
-                "place":"Paris, France",
-                "date":"Octobre 2020 - Octobre 2021",
+                "place":"Paris, フランス",
+                "date":"2020年10月 - 2021年10月",
                 "post":"Développeur Fullstack",
                 "core":"Gestion des bases de données, consultant, développement frontend et backend."
             },
             "gazel":{
-                "title":"GazelEnergie",
-                "place":"Paris, France",
-                "date":"Octobre 2021 - Maintenant",
+                "title":"GAZELENERGIE",
+                "place":"Paris, フランス",
+                "date":"2021年10月 - Maintenant",
                 "post":"Développeur Infra/DevOps",
-                "core":"Développeur de solution infra pour les différents services de la boîte. Développement de solution conteneur dans le cloud, Azure."
+                "core":"Développeur de solution infra pour les différents services de la boîte. Développement de solution conteneur dans le cloud, <span class=\"lato\">Azure</span>"
             },"nagano":{
                 "title":"CHALET CHRISTIANA",
-                "place":"Nagano-ken, Japon",
-                "date":"Août 2019",
+                "place":"長野県, 日本",
+                "date":"8月2019年",
                 "post":"Réceptionniste",
                 "core":"Réceptionniste et serveur dans un hôtel Japonais. Un stage d'un mois pour pratiquer la langue Japonaise dans un cadre professionnel."
             }
         },
         "trainings":{
+            "title":"Formations",
             "az900":{
                 "title":"Microsoft Certified Azure Fundamentals AZ-900",
-                "date":"Juin 2021",
+                "date":"2021年6月",
                 "place":""
             },
             "ia900":{
                 "title":"Microsoft Certified Azure AI Fundamentals AI-900",
-                "date":"Janvier 2022",
+                "date":"2022年1月",
                 "place":""
             },
             "bachelor":{
                 "title":"Bachelor Chargé de projets Web & Mobile",
-                "date":"Septembre 2019 - Octobre 2021",
+                "date":"2019年9月 - 2021年10月",
                 "place":"ETNA, Ivry-sur-Seine"
             },
             "licence":{
                 "title":"2année Double Licence Mathématiques et Informatiques",
-                "date":"Septembre 2018 - Juin 2019",
+                "date":"2018年9月 - 2019年6月",
                 "place":"UPEM, Marne-La-Vallée"
             },
             "master":{
                 "title":"Master Architecte Logiciel Développeur d'Application",
-                "date":"Octobre 2021 - Octobre 2023",
+                "date":"2021年10月 - 2023年10月",
                 "place":"ETNA, Ivry-sur-Seine"
             }
         },
-        "lesson":{
+        "cours":{
             "title":"Cours",
             "iec":{
-                "title":"",
-                "date_place":"",
-                "core":""
+                "title":"IEC Nichibei Kaiwa Gakuin",
+                "place":"東京, 日本",
+                "core":"Trois semaines d’apprentissage intensif de la <span class=\"lato text-[#D02B32]\">Langue Japonaise</span> pour la préparation d’un stage."
             }
         },
         "projects":{
-            "Gengoffee":{
-                "numbers":"Projet en groupe",
-                "title":"Site web Gengoffee",
-                "core":"",
+            "title":"プロジェクト",
+            "gengoffee":{
+                "numbers":"グループプロジェクト",
+                "title":"GengoffeeのWebサイト",
+                "core":"Le site web de l'association Franco-Japonaise Gengoffee à Paris. Le besoin de l'association était d'avoir un site web afin de répertorier les informations relatives à l'association, de les contacter via un formulaire, les événements à venir et de pouvoir s'y inscrire. <br> Fait avec <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> et <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
                 "languages":{
                     "1":"Angular",
                     "2":"Azure",
-                    "3":"Docker"
+                    "3":"TypeScript"
+                }
+            },
+            "catherinethan":{
+                "numbers":"グループプロジェクト",
+                "title":"Catherine Thanのポートフォリオ",
+                "core":"Le portfolio de Catherine Than, UI designer. Elle est aussi celle qui a fait le design de mon portfolio. <br>Fait avec <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> et <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
+                "languages":{
+                    "1":"Wordpress",
+                    "2":"JavaScript"
                 }
             }
         },
         "contact":{
             "intro":"Pourquoi ne pas travailler ensemble ?",
-            "contactme":"Me contacter",
-            "core":"",
+            "contactme":"お問い合わせ",
+            "core":"Que ça soit en France ou ailleurs, n'hésitez pas à me parler de votre projet ! Vous pouvez me contacter par mail ou sur les réseaux. 🙂",
             "send":"Envoyer un message"
         }
     }

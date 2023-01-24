@@ -1,5 +1,6 @@
 {
     "title" : "Français",
+    "languagecode":"fr",
     "hello" : "Bonjour",
     "about" : "À PROPOS",
     "experiences" : "EXPÉRIENCES",
@@ -106,7 +107,7 @@
                 "core":"Le portfolio de Catherine Than, UI designer. Elle est aussi celle qui a fait le design de mon portfolio. <br>Fait avec <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> et <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
                 "languages":{
                     "1":"Wordpress",
-                    "2":"JaveScrpit"
+                    "2":"JavaScript"
                 }
             }
         },
