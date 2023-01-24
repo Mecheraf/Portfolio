@@ -1,5 +1,6 @@
 {
     "title" : "English",
+    "languagecode":"en",
     "hello" : "Hello",
     "about" : "ABOUT",
     "experiences" : "EXPERIENCES",
@@ -106,7 +107,7 @@
                 "core":"Catherine Than's portofolio, an UI Designer. She is also the one who made my portfolio's design. <br>Made with <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> and <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
                 "languages":{
                     "1":"Wordpress",
-                    "2":"JaveScrpit"
+                    "2":"JavaScript"
                 }
             }
         },
