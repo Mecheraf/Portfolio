@@ -1,9 +1,15 @@
 <header class="h-20 md:flex md:pr-20 md:pl-16 text-[#213253] mb-12 md:mb-40">
+  <nav class="mt-10 hidden lg:block">
+    <div class="ppeiko text-xl md:text-2xl absolute">
+      Alan M.
+    </div>
+  </nav>
     <nav
       *ngIf="showMobileMenu || !isMobile"
       class="flex place-items-center fixed flex-col pt-24 gap-5 text-xl inset-0 bg-white z-50 
         md:flex-row md:text-base md:gap-10 md:relative md:pt-5 md:ml-auto"
     >
+      
       <div class="min-w-fit">
         <a href="#about" (click)="closeMenu();">{{'about'|translate}}</a>
       </div>
@@ -18,9 +24,10 @@
       </div>
       <a href="#contact" (click)="closeMenu();">
 
-      <div class="text-[#D02B32] border border-solid border-[#D02B32] w-fit py-2 px-6 hover:bg-[#D02B32] hover:text-white">
-        {{'contact'|translate}}
-      </div></a>
+        <div class="text-[#D02B32] border border-solid border-[#D02B32] w-fit py-2 px-6 hover:bg-[#D02B32] hover:text-white">
+          {{'contact'|translate}}
+        </div>
+      </a>
       <div *ngIf="isMobile" class="text-[#1F3D87] place-self-center">
         <button (click)="switchLanguage('en')" class="">ENG</button>
         <button (click)="switchLanguage('fr')" class="ml-8 mr-6">FR</button>
