@@ -3,16 +3,16 @@
     "languagecode":"en",
     "hello" : "こんにちは",
     "about" : "概要",
-    "experiences" : "EXPÉRIENCES",
-    "trainings" : "FORMATIONS",
+    "experiences" : "経験",
+    "trainings" : "資格",
     "projects" : "プロジェクト",
     "contact" : "コンタクト",
     "body":{
         "about":{
             "title":"概要",
-            "core": "Actuellement étudiant <span class=\"lato text-[#D02B32]\">Master à l’ETNA</span>, une école spécialisée en informatique. Je travaille en tant qu’alternant DevOps/InfraSys à GazelEnergie.<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
+            "core": "現在<span class=\"lato text-[#D02B32]\">修士号取得</span>のためにパリにあるITの学校、ETNAで勉強しています。学校に通いながら、GazelEnergieという会社でDevOps/InfraSysのインターンシップを受ける。<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
             "competences":{
-                "title":"Voici quelques-unes de mes compétences :",
+                "title":"スキルの一部一覧 :",
                 "1":"Docker, Kubernetes",
                 "2":"Azure CLI/Azure Portail",
                 "3":"Shopify, Woocommerce",
@@ -20,11 +20,11 @@
                 "5":"Nodejs, Django",
                 "6":"Powershell, Bash"
             },
-            "CV":"私のCV",
+            "CV":"履歴書",
             "github":"私のGitHub"
         },
         "experiences":{
-            "title":"Expériences",
+            "title":"経験",
             "ddm":{
                 "title":"DDM PROD.",
                 "place":"Paris, フランス",
@@ -49,12 +49,12 @@
                 "title":"CHALET CHRISTIANA",
                 "place":"長野県, 日本",
                 "date":"8月2019年",
-                "post":"Réceptionniste",
-                "core":"Réceptionniste et serveur dans un hôtel Japonais. Un stage d'un mois pour pratiquer la langue Japonaise dans un cadre professionnel."
+                "post":"サービススタッフ",
+                "core":"日本のホテル内のサービススタッフ。 プロフェッショナルな状況で自身の日本語を向上するために1ヶ月間研修しました。"
             }
         },
         "trainings":{
-            "title":"Formations",
+            "title":"資格",
             "az900":{
                 "title":"Microsoft Certified Azure Fundamentals AZ-900",
                 "date":"2021年6月",
@@ -86,7 +86,7 @@
             "iec":{
                 "title":"IEC Nichibei Kaiwa Gakuin",
                 "place":"東京, 日本",
-                "core":"Trois semaines d’apprentissage intensif de la <span class=\"lato text-[#D02B32]\">Langue Japonaise</span> pour la préparation d’un stage."
+                "core":"3週間のインターンシップの為に日本に行き、<span class=\"lato text-[#D02B32]\">日本語</span>を勉強しました"
             }
         },
         "projects":{
@@ -94,7 +94,7 @@
             "gengoffee":{
                 "numbers":"グループプロジェクト",
                 "title":"GengoffeeのWebサイト",
-                "core":"Le site web de l'association Franco-Japonaise Gengoffee à Paris. Le besoin de l'association était d'avoir un site web afin de répertorier les informations relatives à l'association, de les contacter via un formulaire, les événements à venir et de pouvoir s'y inscrire. <br> Fait avec <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> et <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
+                "core":"Le site web de l'association Franco-Japonaise Gengoffee à Paris. Le besoin de l'association était d'avoir un site web afin de répertorier les informations relatives à l'association, de les contacter via un formulaire, les événements à venir et de pouvoir s'y inscrire. <br><a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a>と<a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a><span class=\"fangsong\">作りました。</span>",
                 "languages":{
                     "1":"Angular",
                     "2":"Azure",
@@ -104,7 +104,7 @@
             "catherinethan":{
                 "numbers":"グループプロジェクト",
                 "title":"Catherine Thanのポートフォリオ",
-                "core":"Le portfolio de Catherine Than, UI designer. Elle est aussi celle qui a fait le design de mon portfolio. <br>Fait avec <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> et <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
+                "core":"Le portfolio de Catherine Than, UI designer. Elle est aussi celle qui a fait le design de mon portfolio. <br><a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a>と<a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>作りました。",
                 "languages":{
                     "1":"Wordpress",
                     "2":"JavaScript"
