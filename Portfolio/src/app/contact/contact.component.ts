@@ -12,4 +12,11 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  displayMail() {
+    const displaymail = document.getElementById("email"); 
+    if(displaymail){
+      displaymail.style.display = 'block'
+    }
+  }
+
 }

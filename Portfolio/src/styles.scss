@@ -57,7 +57,7 @@
         grid-area:techno;
     }
 
-    .containerExperience{
+    .containerProject{
         display:grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: auto;
@@ -67,7 +67,7 @@
         "pro-image pro-image pro-image techno techno"
     }
 
-    .containerExperienceLeft{
+    .containerProjectLeft{
         display:grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: auto;
@@ -77,7 +77,7 @@
         "techno techno pro-image pro-image pro-image"
     }
 
-    .containerExperienceMobileLeft{
+    .containerProjectMobileLeft{
         display:grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
@@ -88,15 +88,15 @@
         "techno techno"
     }
 
-    .containerExperienceMobile{
+    .containerProjectMobile{
         display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4, auto);
         grid-template-areas:
-        "pro-title pro-title" 
-        "pro-image pro-desc"
-        "pro-image pro-desc"
-        "techno techno"
+        "pro-title" 
+        "pro-desc"
+        "techno"
+        "pro-image"
     }
   
 }

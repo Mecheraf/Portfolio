@@ -8,8 +8,9 @@
     <p class="text-lg m-auto w-full sm:w-4/5 lg:w-3/5 lato-light">
         {{'body.contact.core'|translate}}
     </p>
-    <div class="lato-light text-lg text-[#D02B32] ">
-        <button  class="border border-solid border-[#D02B32] hover:bg-[#D02B32] hover:text-white mt-6 lg:mt-9 px-8 py-4 lg:text-2xl">{{'body.contact.send'|translate}}</button>
+    <div class="lato-light ">
+        <button (click)="displayMail()" class="border border-solid text-[#D02B32] border-[#D02B32] hover:bg-[#D02B32] hover:text-white mt-6 lg:mt-9 px-8 py-4 text-lg lg:text-2xl">{{'body.contact.send'|translate}}</button>
+        <h1 id="email" class="hidden w-fit m-auto mt-6 lg:mt-10 text-3xl lg:text-4xl border-b border-solid border-[#213253]">alan.mecheraf@gmail.com</h1>
     </div>
 
 </div>
