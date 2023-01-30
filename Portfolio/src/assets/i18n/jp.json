@@ -10,7 +10,7 @@
     "body":{
         "about":{
             "title":"概要",
-            "core": "現在<span class=\"lato text-[#D02B32]\">修士号取得</span>のためにパリにあるITの学校、ETNAで勉強しています。学校に通いながら、GazelEnergieという会社でDevOps/InfraSysのインターンシップを受ける。<br><br>Étant un élève sérieux et un féru de sciences, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes études, j’apprends la langue japonaise et dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
+            "core": "現在<span class=\"lato text-[#D02B32]\">修士号取得</span>のためにパリにあるITの学校、ETNAで勉強しており、学校に通いながら、GazelEnergieという会社でDevOps/InfraSysのインターンシップを受ける。<br><br>真面目で科学にとても興味があり、関心がある分野においては、常に向上心と情熱を持って見聞を深めている。 ITの勉強の傍、趣味で日本語を学んでおり、フランス語、英語、日本語の言語交換のために<span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>という団体を発足し、運営している。",
             "competences":{
                 "title":"スキルの一部一覧 :",
                 "1":"Docker, Kubernetes",
@@ -29,28 +29,28 @@
                 "title":"DDM PROD.",
                 "place":"Paris, フランス",
                 "date":"2019年9月 - 2020年10月",
-                "post":"Développeur Fullstack",
-                "core":"Gestion de bases de données, développement du frontend et backend."
+                "post":"Fullstack Developer",
+                "core":"Website's design, architecture, database management and algorithms."
             },
             "oishi":{
                 "title":"OISHI MARKET & GAME OFF",
                 "place":"Paris, フランス",
                 "date":"2020年10月 - 2021年10月",
-                "post":"Développeur Fullstack",
-                "core":"Gestion des bases de données, consultant, développement frontend et backend."
+                "post":"Fullstack Developer",
+                "core":"Website's design, architecture, database management and algorithms."
             },
             "gazel":{
                 "title":"GAZELENERGIE",
                 "place":"Paris, フランス",
-                "date":"2021年10月 - Maintenant",
-                "post":"Développeur Infra/DevOps",
-                "core":"Développeur de solution infra pour les différents services de la boîte. Développement de solution conteneur dans le cloud, <span class=\"lato\">Azure</span>"
+                "date":"2021年10月 - 現在",
+                "post":"Infra Developer/Devops",
+                "core":"Development of infrastructure’s scripts, cloud architecture and cloud deployment on <span class=\"lato\">Azure.</span>"
             },"nagano":{
                 "title":"CHALET CHRISTIANA",
                 "place":"長野県, 日本",
-                "date":"8月2019年",
+                "date":"2019年8月",
                 "post":"サービススタッフ",
-                "core":"日本のホテル内のサービススタッフ。 プロフェッショナルな状況で自身の日本語を向上するために1ヶ月間研修しました。"
+                "core":"日本のホテル内のサービススタッフ。 プロフェッショナルな状況で自身の日本語を向上するために1ヶ月間研修した。"
             }
         },
         "trainings":{
@@ -66,7 +66,7 @@
                 "place":""
             },
             "bachelor":{
-                "title":"Bachelor Chargé de projets Web & Mobile",
+                "title":"学士号取得 Software Architect & Application's Developer",
                 "date":"2019年9月 - 2021年10月",
                 "place":"ETNA, Ivry-sur-Seine"
             },
@@ -82,7 +82,7 @@
             }
         },
         "cours":{
-            "title":"Cours",
+            "title":"学校",
             "iec":{
                 "title":"IEC Nichibei Kaiwa Gakuin",
                 "place":"東京, 日本",
@@ -94,7 +94,7 @@
             "gengoffee":{
                 "numbers":"グループプロジェクト",
                 "title":"GengoffeeのWebサイト",
-                "core":"Le site web de l'association Franco-Japonaise Gengoffee à Paris. Le besoin de l'association était d'avoir un site web afin de répertorier les informations relatives à l'association, de les contacter via un formulaire, les événements à venir et de pouvoir s'y inscrire. <br><a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a>と<a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a><span class=\"fangsong\">作りました。</span>",
+                "core":"団体のニーズは、団体の情報を掲載し、問い合わせフォームからの連絡、今後のイベントの情報や参加登録ができるウェブサイトだった。 <br><a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a>と<a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>とともに作成した。",
                 "languages":{
                     "1":"Angular",
                     "2":"Azure",
@@ -104,7 +104,7 @@
             "catherinethan":{
                 "numbers":"グループプロジェクト",
                 "title":"Catherine Thanのポートフォリオ",
-                "core":"Le portfolio de Catherine Than, UI designer. Elle est aussi celle qui a fait le design de mon portfolio. <br><a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a>と<a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>作りました。",
+                "core":"Catherine Thanのポートフォリオ、UIデザイナー。彼女は私のポートフォリオをデザインした。<br><a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a>と<a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>とともに作成した。",
                 "languages":{
                     "1":"Wordpress",
                     "2":"JavaScript"
@@ -112,10 +112,10 @@
             }
         },
         "contact":{
-            "intro":"Pourquoi ne pas travailler ensemble ?",
+            "intro":"一緒に働きましょう！",
             "contactme":"お問い合わせ",
-            "core":"Que ça soit en France ou ailleurs, n'hésitez pas à me parler de votre projet ! Vous pouvez me contacter par mail ou sur les réseaux. 🙂",
-            "send":"Envoyer un message"
+            "core":"フランス国内に限らずプロジェクトがあれば世界中どこでも対応します。プロジェクトについてお気軽にメールまたは各ソーシャルメディアのDMからご連絡下さい。🙂",
+            "send":"メッセージを送信"
         }
     }
 }
