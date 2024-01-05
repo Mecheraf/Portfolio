@@ -10,7 +10,7 @@
     "body":{
         "about":{
             "title":"About",
-            "core": "Currently a studying for a <span class=\"lato text-[#D02B32]\">Master's Degree</span> at Etna, a computer science school, I’m also working as a DevOps in an energy company: GazelEnergie. <br><br>I’m a sharp student, a great lover of sciences, I always strive to learn as far as possible in a domain. Besides my main studies, I’m learning Japanese as a hobby and also leading an association for French, English and Japanese Language Exchange: <span class=\"lato text-[#D02B32]\">Gengoffee</span>.",
+            "core": "Freshly graduated with a <span class=\"lato text-[#D02B32]\">Master's Degree</span> at Etna, a computer science school, I was, until recently, working as a DevOps in an energy company: GazelEnergie. <br><br>As a great lover of sciences and with a very serious mindset for my work, I always strive to learn as far as possible in a domain. Besides my work, I’m learning Japanese as a hobby and also leading an association for French, English and Japanese Language Exchange: <span class=\"lato text-[#D02B32]\">Gengoffee</span>.",
             "competences":{
                 "title":"Here's some of my hardskills :",
                 "1":"Docker, Kubernetes",
@@ -42,7 +42,7 @@
             "gazel":{
                 "title":"GAZELENERGIE",
                 "place":"Paris, France",
-                "date":"October 2021 - Now",
+                "date":"November 2021 - November 2023",
                 "post":"Infra Developer/Devops",
                 "core":"Development of infrastructure’s scripts, cloud architecture and cloud deployment on <span class=\"lato\">Azure.</span>"
             },"nagano":{
