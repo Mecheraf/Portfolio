@@ -6,6 +6,6 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   
-  RewriteCond %{HTTP_HOST} alanmecheraf.fr 
+  RewriteCond %{HTTP_HOST} https://alanmecheraf.fr 
   RewriteRule (.*) https://www.alamecheraf.fr/$1 [R=301,L]
 </IfModule>
