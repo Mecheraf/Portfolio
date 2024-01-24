@@ -5,7 +5,10 @@
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  
-  RewriteCond %{HTTP_HOST} https://alanmecheraf.fr 
-  RewriteRule (.*) https://www.alamecheraf.fr/$1 [R=301,L]
+
+  RewriteCond %{HTTP_HOST} https://alanmecheraf.fr [NC]
+  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+  RewriteCond %{ENV:HTTPS} !on
+  RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>
