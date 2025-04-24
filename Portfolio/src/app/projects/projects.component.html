@@ -1,8 +1,39 @@
 <div class="mt-24 lg:mt-52 mb-24 lg:mb-52">
     <div class="w-12 mt-4 mr-7 border-solid border border-[#D02B32] float-left"></div>
     <h1 class="text-3xl pb-16 ppeiko xl:text-4xl">{{'body.projects.title'|translate}}</h1>
-    <!--<div class="container md:grid md:grid-cols-5 h-96 text-lg">-->
-    <div class="containerProjectMobile lg:containerProject text-lg mt-5">
+
+    <div class="containerProjectMobile lg:containerProjectLeft text-lg mt-7 md:mt-16"> <!--Catherine's website-->
+        <div class="lg:w-[100%] bg-[#213253] mt-5 xl:mt-0 h-fit projectImage">
+            <div class="flex justify-between">
+                <img src="./assets/images/MobileApp1.png" class="w-52 p-3 hidden sm:block">
+                <img src="./assets/images/MobileApp2.png" class="w-52 p-3 hidden sm:block">
+                <img src="./assets/images/MobileApp3.png" class="w-52 p-3 hidden xl:block">
+
+            </div>
+            <img src="./assets/images/MobileApp1.png" class="p-5 sm:hidden">
+        </div>
+        <div class="projectTitle flex lg:block text-center space-x-5 lg:space-x-0 lg:text-left justify-center">
+            <h2 class="text-[#D02B32] mt-2 lato">{{'body.projects.gengoffeemobile.numbers'|translate}}</h2>
+            <h1 class="text-xl md:text-2xl mt-2 lg:mt-3 ppeiko text-center lg:text-left">{{'body.projects.gengoffeemobile.title'|translate}}</h1>
+        </div>
+        <div class="projectDesc h-full text-left md:col-span-2"> 
+            <div class="bg-[#F2DDDD] min-h-56 h-fit max-h-72 sm:h-fit mt-6 w-4/5 lg:w-[110%] m-auto relative pl-3 py-1 md:py-3 xl:py-7">
+                <p class="lato-light text-base 2xl:text-xl p-1" [innerHtml]="'body.projects.gengoffeemobile.core'|translate"></p>
+            </div>
+        </div>
+        <div class="flex md:block techno mt-6 lg:mt-2 lg:justify-self-start mx-auto lg:mx-0">
+            <div class= "child:mr-6 mb-4 md:mt-6 text-xl lato-light flex">
+                <p class="">{{'body.projects.gengoffeemobile.languages.1'|translate}}</p>
+                <p class="">{{'body.projects.gengoffeemobile.languages.2'|translate}}</p>
+                <p class="">{{'body.projects.gengoffeemobile.languages.3'|translate}}</p>
+            </div>
+            <div class="flex lg:items-end md:mt-6 justify-center lg:justify-start">
+                <a href="https://github.com/Mecheraf/GengoffeeMobile"><img class="ml-5 h-6" src="./assets/images/git.svg"></a> 
+            </div>
+        </div>
+    </div>
+
+    <div class="containerProjectMobile lg:containerProject text-lg mt-5"> <!--Gengoffee Website-->
         <div class="lg:w-[110%] bg-[#213253] mt-5 2xl:mt-0 h-fit projectImage">
             <img src="./assets/images/gengoffeehome.png" class="p-3 xl:p-5 2xl:p-7 hidden sm:block">
             <img src="./assets/images/gengoffeemobile.jpg" class="p-5 sm:hidden">
@@ -29,7 +60,7 @@
         </div>
     </div>
 
-    <div class="containerProjectMobile lg:containerProjectLeft text-lg mt-7 md:mt-16">
+    <div class="containerProjectMobile lg:containerProjectLeft text-lg mt-7 md:mt-16"> <!--Catherine's website-->
         <div class="lg:w-[100%] bg-[#213253] mt-5 xl:mt-0 h-fit projectImage">
             <img src="./assets/images/catherinethanhome.png" class="p-3 xl:p-5 2xl:p-7 hidden sm:block">
             <img src="./assets/images/catherinethanmobile.jpg" class="p-3 sm:hidden">

@@ -15,8 +15,8 @@
                 "title":"スキルの一部一覧 :",
                 "1":"Docker, Kubernetes",
                 "2":"Azure CLI/Azure Portail",
-                "3":"Shopify, Woocommerce",
-                "4":"Angular, Flutter",
+                "3":"Angular, Swift",
+                "4":"SwiftUI, Flutter",
                 "5":"Nodejs, Django",
                 "6":"Powershell, Bash"
             },
@@ -51,6 +51,20 @@
                 "date":"2019年8月",
                 "post":"サービススタッフ",
                 "core":"日本のホテル内のサービススタッフ。 プロフェッショナルな状況で自身の日本語を向上するために1ヶ月間研修した。"
+            },
+            "gengoffee":{
+                "title":"GENGOFFEE",
+                "place":"パリ, フランス - 東京, 日本",
+                "date":"2021年9月 - Maintenant",
+                "post":"Founder and President",
+                "core":"Fondateur de l'association, développement des événements et de l'expension à Tokyo. Conception et développement du site web, maintenance, mise à jour et SEO. Conception et développement de l'application mobile pour les équipes à Paris et Tokyo."
+            },
+            "freelance":{
+                "title":"FREELANCE",
+                "place":"フランス",
+                "date":"2022年8月 - Maintenant",
+                "post":"Web, mobile and infra developper",
+                "core":"Conception et développement de site web, maintenance, mise à jour et SEO. Conception et développement d'une application mobile pour les équipes à Paris et Tokyo de l'association Gengoffee."
             }
         },
         "trainings":{
@@ -97,6 +111,16 @@
                 "core":"団体のニーズは、団体の情報を掲載し、問い合わせフォームからの連絡、今後のイベントの情報や参加登録ができるウェブサイトだった。 <br><a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a>と<a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>とともに作成した。",
                 "languages":{
                     "1":"Angular",
+                    "2":"Azure",
+                    "3":"TypeScript"
+                }
+            },
+            "gengoffeemobile":{
+                "numbers":"一人のプロジェクト",
+                "title":"Gengoffeeのアプリ",
+                "core":"L'application mobile de l'Association Gengoffee. Avec l'expension de l'association à Tokyo et les événement grandissants de Paris, de nouveaux besoins se sont fait ressentir au sein deux équipes. Afin de satisfaire ces besoins, l'idée d'une application mobile a été conçue et développée par mes soins. Une V1 est aujourd'hui accessible via mon GitHub et un mode offline est disponible.",
+                "languages":{
+                    "1":"Swift/SwiftUI",
                     "2":"Azure",
                     "3":"TypeScript"
                 }

@@ -10,13 +10,13 @@
     "body":{
         "about":{
             "title":"À propos",
-            "core": "Fraîchement diplômé d'un <span class=\"lato text-[#D02B32]\">Master à l’ETNA</span>, une école spécialisée en informatique. J'occupais jusqu'à récemment le poste de DevOps/Développeur InfraSys à GazelEnergie.<br><br>Étant un féru de sciences et sérieux dans mon travail, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. En parallèle de mes mon travail, j’apprends la langue japonaise et dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>.",
+            "core": "Fraîchement diplômé d'un <span class=\"lato text-[#D02B32]\">Master à l’ETNA</span>, une école spécialisée en informatique. J'occupais jusqu'à récemment le poste de DevOps/Développeur InfraSys à GazelEnergie.<br><br>Étant un féru de sciences et sérieux dans mon travail, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. <br>Je dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>, fondée à Paris et dont l'activité s'étend à Paris et Tokyo. <br><br> En parallèle de mes activités professionnelles, j’apprends la langue japonaise et fait régulièrement du sport.  ",
             "competences":{
                 "title":"Voici quelques-unes de mes compétences :",
                 "1":"Docker, Kubernetes",
                 "2":"Azure CLI/Azure Portail",
-                "3":"Shopify, Woocommerce",
-                "4":"Angular, Flutter",
+                "3":"Angular, Swift",
+                "4":"SwiftUI, Flutter",
                 "5":"Nodejs, Django",
                 "6":"Powershell, Bash"
             },
@@ -52,6 +52,20 @@
                 "date":"Août 2019",
                 "post":"Réceptionniste",
                 "core":"Réceptionniste et serveur dans un hôtel Japonais. Un stage d'un mois pour pratiquer la langue Japonaise dans un cadre professionnel."
+            },
+            "gengoffee":{
+                "title":"GENGOFFEE",
+                "place":"Paris, France - Tokyo, Japon",
+                "date":"Septembre 2021 - Maintenant",
+                "post":"Fondateur et Président",
+                "core":"Fondateur de l'association et du format des événements. Chargé des événements et des plannings à Paris, du recrutement des nouveaux membres et du relationnel des partenaires à Paris et Tokyo. Chef de projet de l'expension à Tokyo."
+            },
+            "freelance":{
+                "title":"FREELANCE",
+                "place":"France",
+                "date":"Août 2022 - Maintenant",
+                "post":"Développeur web, mobile et infra",
+                "core":"Conception et développement de site web, maintenance, mise à jour et SEO. Conception et développement d'une application mobile pour les équipes à Paris et Tokyo de l'association Gengoffee."
             }
         },
         "trainings":{
@@ -98,6 +112,16 @@
                 "core":"Le site web de l'association Franco-Japonaise Gengoffee à Paris. Le besoin de l'association était d'avoir un site web afin de répertorier les informations relatives à l'association, de les contacter via un formulaire, les événements à venir et de pouvoir s'y inscrire. <br> Fait avec <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> et <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
                 "languages":{
                     "1":"Angular",
+                    "2":"Azure",
+                    "3":"TypeScript"
+                }
+            },
+            "gengoffeemobile":{
+                "numbers":"Projet solo",
+                "title":"Application mobile Gengoffee",
+                "core":"L'application mobile de l'Association Gengoffee. Avec l'expension de l'association à Tokyo et les événement grandissants de Paris, de nouveaux besoins se sont fait ressentir au sein deux équipes. Afin de satisfaire ces besoins, l'idée d'une application mobile a été conçue et développée par mes soins. Une V1 est aujourd'hui accessible via mon GitHub et un mode offline est disponible.",
+                "languages":{
+                    "1":"Swift/SwiftUI",
                     "2":"Azure",
                     "3":"TypeScript"
                 }

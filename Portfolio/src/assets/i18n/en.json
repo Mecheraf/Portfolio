@@ -10,13 +10,13 @@
     "body":{
         "about":{
             "title":"About",
-            "core": "Freshly graduated with a <span class=\"lato text-[#D02B32]\">Master's Degree</span> at Etna, a computer science school, I was, until recently, working as a DevOps in an energy company: GazelEnergie. <br><br>As a great lover of sciences and with a very serious mindset for my work, I always strive to learn as far as possible in a domain. Besides my work, I’m learning Japanese as a hobby and also leading an association for French, English and Japanese Language Exchange: <span class=\"lato text-[#D02B32]\">Gengoffee</span>.",
+            "core": "Freshly graduated with a <span class=\"lato text-[#D02B32]\">Master's Degree</span> at Etna, a computer science school, I was, until recently, working as a DevOps in an energy company: GazelEnergie. <br><br>As a great lover of sciences and with a very serious mindset for my work, I always strive to learn as far as possible in a domain.<br>I am also leading an association for French, English and Japanese Language Exchange: <span class=\"lato text-[#D02B32]\">Gengoffee</span>, founded in France and now performing in both Paris and Tokyo. <br><br>Besides my career, I’m learning Japanese as a hobby, travelling and frequently do sports.",
             "competences":{
                 "title":"Here's some of my hardskills :",
                 "1":"Docker, Kubernetes",
                 "2":"Azure CLI/Azure Portail",
-                "3":"Shopify, Woocommerce",
-                "4":"Angular, Flutter",
+                "3":"Angular, Swift",
+                "4":"SwiftUI, Flutter",
                 "5":"Nodejs, Django",
                 "6":"Powershell, Bash"
             },
@@ -51,6 +51,20 @@
                 "date":"August 2019",
                 "post":"Receptionist",
                 "core":"Services and receptionning in a hotel in Japan. I did the internship to practice and improve my Japanese for a month."
+            },
+            "gengoffee":{
+                "title":"GENGOFFEE",
+                "place":"Paris, France - Tokyo, Japon",
+                "date":"September 2021 - Now",
+                "post":"Founder and President",
+                "core":"Founder of the organization and creator of the concept of the event's format. Managing the event and schedule in Paris, leading the expension in Tokyo. Recruiting new members and in charge of the partnerships."
+            },
+            "freelance":{
+                "title":"FREELANCE",
+                "place":"France",
+                "date":"August 2022 - Now",
+                "post":"Web, mobile and infra developper",
+                "core":"Conception and development of the website, updates and SEO. Conception and development of a mobile application for the teams of Gengoffee's organization in Tokyo and Paris."
             }
         },
         "trainings":{
@@ -101,9 +115,19 @@
                     "3":"TypeScript"
                 }
             },
+            "gengoffeemobile":{
+                "numbers":"Solo project",
+                "title":"Gengoffee's mobile application ",
+                "core":"The mobile application of Gengoffee's Organization. While the events expended to Tokyo and get bigger and bigger in Paris, new needs emerged from the organizers. To satisfy the new requirments, a mobile application solution has been conceived and developped by myself. A V1 is now accessible on my GitHub and an offline mode is usable.",
+                "languages":{
+                    "1":"Swift/SwiftUI",
+                    "2":"Azure",
+                    "3":"TypeScript"
+                }
+            },
             "catherinethan":{
                 "numbers":"Group's project",
-                "title":"Portfolio Catherine Than's",
+                "title":"Catherine Than's Portfolio",
                 "core":"Catherine Than's portofolio, an UI Designer. She is also the one who made my portfolio's design. <br>Made with <a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a> and <a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>.",
                 "languages":{
                     "1":"Wordpress",

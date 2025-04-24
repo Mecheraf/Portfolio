@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperiencesComponent implements OnInit {
 
-  gazel = true;
+  experience = ""
 
   constructor() { }
 
@@ -15,18 +15,14 @@ export class ExperiencesComponent implements OnInit {
   }
 
   displayExperience(id:string) {
-    if(this.gazel==true){
-      this.gazel = false;
-      const gazelBox = document.getElementById("gazel");
-      if(gazelBox){
-        gazelBox.style.transform = 'translateX(100vw)'
-      }
+    if(this.experience){
+      this.hideExperience(this.experience)
     }
+    this.experience = id
     const experienceBox = document.getElementById(id); 
     if(experienceBox){
       experienceBox.style.transform = 'translateX(0)'
     }
-    
   }
 
   hideExperience(id:string) {
