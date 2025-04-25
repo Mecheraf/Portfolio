@@ -10,7 +10,7 @@
     "body":{
         "about":{
             "title":"概要",
-            "core": "現在<span class=\"lato text-[#D02B32]\">修士号取得</span>のためにパリにあるITの学校、ETNAで勉強しており、学校に通いながら、GazelEnergieという会社でDevOps/InfraSysのインターンシップを受ける。<br><br>真面目で科学にとても興味があり、関心がある分野においては、常に向上心と情熱を持って見聞を深めている。 ITの勉強の傍、趣味で日本語を学んでおり、フランス語、英語、日本語の言語交換のために<span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>という団体を発足し、運営している。",
+            "core": "<span class=\"lato text-[#D02B32]\">修士号取得</span>のためにパリにあるITの学校、ETNAで卒業しました。最近まで、GazelEnergie というエネルギー会社で DevOps として働いていました。<br><br>真面目で科学にとても興味があり、関心がある分野においては、常に向上心と情熱を持って見聞を深めている。<br> 東京とパリでフランス語、英語、日本語の言語交換のために<span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>という団体を発足し、運営している。<br><br>経歴の傍、趣味で日本語を学んでおりとよく運動している。",
             "competences":{
                 "title":"スキルの一部一覧 :",
                 "1":"Docker, Kubernetes",
@@ -27,44 +27,44 @@
             "title":"経験",
             "ddm":{
                 "title":"DDM PROD.",
-                "place":"Paris, フランス",
+                "place":"Paris、 フランス",
                 "date":"2019年9月 - 2020年10月",
                 "post":"Fullstack Developer",
                 "core":"Website's design, architecture, database management and algorithms."
             },
             "oishi":{
                 "title":"OISHI MARKET & GAME OFF",
-                "place":"Paris, フランス",
+                "place":"Paris、 フランス",
                 "date":"2020年10月 - 2021年10月",
                 "post":"Fullstack Developer",
                 "core":"Website's design, architecture, database management and algorithms."
             },
             "gazel":{
                 "title":"GAZELENERGIE",
-                "place":"Paris, フランス",
+                "place":"Paris、 フランス",
                 "date":"2021年11月 - 2023年11月",
                 "post":"Infra Developer/Devops",
                 "core":"Development of infrastructure’s scripts, cloud architecture and cloud deployment on <span class=\"lato\">Azure.</span>"
             },"nagano":{
                 "title":"CHALET CHRISTIANA",
-                "place":"長野県, 日本",
+                "place":"長野県、 日本",
                 "date":"2019年8月",
                 "post":"サービススタッフ",
                 "core":"日本のホテル内のサービススタッフ。 プロフェッショナルな状況で自身の日本語を向上するために1ヶ月間研修した。"
             },
             "gengoffee":{
                 "title":"GENGOFFEE",
-                "place":"パリ, フランス - 東京, 日本",
+                "place":"パリ、 フランス - 東京、 日本",
                 "date":"2021年9月 - Maintenant",
-                "post":"Founder and President",
-                "core":"Fondateur de l'association, développement des événements et de l'expension à Tokyo. Conception et développement du site web, maintenance, mise à jour et SEO. Conception et développement de l'application mobile pour les équipes à Paris et Tokyo."
+                "post":"会長、元祖",
+                "core":"Gengoffee団体とイベントの元祖。 パリのイベントとスケジュールの主任です。パリと東京のリクルートとビジネスパートナーの主任です。東京での拡張を主導しました。"
             },
             "freelance":{
                 "title":"FREELANCE",
                 "place":"フランス",
                 "date":"2022年8月 - Maintenant",
                 "post":"Web, mobile and infra developper",
-                "core":"Conception et développement de site web, maintenance, mise à jour et SEO. Conception et développement d'une application mobile pour les équipes à Paris et Tokyo de l'association Gengoffee."
+                "core":"webサイトのデザインと開発, アップデートとSEO。 Gengoffee団体の東京とパリのチームモビルアプリのデザインと開発。"
             }
         },
         "trainings":{
@@ -107,7 +107,7 @@
             "title":"プロジェクト",
             "gengoffee":{
                 "numbers":"グループプロジェクト",
-                "title":"GengoffeeのWebサイト",
+                "title":"Gengoffeeのウエブサイト",
                 "core":"団体のニーズは、団体の情報を掲載し、問い合わせフォームからの連絡、今後のイベントの情報や参加登録ができるウェブサイトだった。 <br><a href=\"https://catherinethan.com/\"><span class=\"lato-italic\">Catherine Than</span></a>と<a href=\"https://www.linkedin.com/in/salim-baroudi/\"><span class=\"lato-italic\">Salim Baroudi</span></a>とともに作成した。",
                 "languages":{
                     "1":"Angular",
@@ -117,8 +117,8 @@
             },
             "gengoffeemobile":{
                 "numbers":"一人のプロジェクト",
-                "title":"Gengoffeeのアプリ",
-                "core":"L'application mobile de l'Association Gengoffee. Avec l'expension de l'association à Tokyo et les événement grandissants de Paris, de nouveaux besoins se sont fait ressentir au sein deux équipes. Afin de satisfaire ces besoins, l'idée d'une application mobile a été conçue et développée par mes soins. Une V1 est aujourd'hui accessible via mon GitHub et un mode offline est disponible.",
+                "title":"Gengoffee団体のアプリ",
+                "core":"パリのイベントが大きくなって来たりと東京でもイベント始めたり、東京とパリのチームから新いニーズが出て来た。満たす為にこのモビルアプリケーションを作って来た。現在、V1 は GitHub 経由でアクセス可能で、オフライン モードも利用できます。",
                 "languages":{
                     "1":"Swift/SwiftUI",
                     "2":"Azure",
