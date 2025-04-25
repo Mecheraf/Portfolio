@@ -7,14 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperiencesComponent implements OnInit {
 
-  experience = ""
+  experience = "freelance"
 
   constructor() { }
 
   ngOnInit(): void {
+    this.displayExperience(this.experience)
   }
 
-  displayExperience(id:string) {
+  displayExperience(id:string){
     if(this.experience){
       this.hideExperience(this.experience)
     }
@@ -30,8 +31,6 @@ export class ExperiencesComponent implements OnInit {
     if(experienceBox){
       experienceBox.style.transform = 'translateX(100vw)'
     }
-    
-    console.log("out")
   }
 
 }
