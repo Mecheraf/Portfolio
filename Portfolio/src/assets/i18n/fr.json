@@ -10,7 +10,7 @@
     "body":{
         "about":{
             "title":"À propos",
-            "core": "Fraîchement diplômé d'un <span class=\"lato text-[#D02B32]\">Master à l’ETNA</span>, une école spécialisée en informatique. J'occupais jusqu'à récemment le poste de DevOps/Développeur InfraSys à GazelEnergie.<br><br>Étant un féru de sciences et sérieux dans mon travail, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. <br>Je dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>, fondée à Paris et dont l'activité s'étend à Paris et Tokyo. <br><br> En parallèle de mes activités professionnelles, j’apprends la langue japonaise et fais régulièrement du sport.  ",
+            "core": "Fraîchement diplômé d'un <span class=\"lato text-[#D02B32]\">Master à l’ETNA</span>, une école spécialisée en informatique. J'occupais jusqu'à récemment le poste de DevOps/Développeur InfraSys à GazelEnergie.<br><br>Étant un féru de sciences et sérieux dans mon travail, j’essaye toujours d’améliorer mes compétences dans les domaines qui me passionnent. <br>Je dirige une association d’échange de langue : <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.com'>Gengoffee</a></span>, fondée à Paris et dont l'activité s'étend à Paris et Tokyo. <br><br> En parallèle de mes activités professionnelles, j’apprends la langue japonaise et fais régulièrement du sport.  ",
             "competences":{
                 "title":"Voici quelques-unes de mes compétences :",
                 "1":"Docker, Kubernetes",

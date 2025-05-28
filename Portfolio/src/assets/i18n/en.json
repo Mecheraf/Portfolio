@@ -10,7 +10,7 @@
     "body":{
         "about":{
             "title":"About",
-            "core": "Freshly graduated with a <span class=\"lato text-[#D02B32]\">Master's Degree</span> at Etna, a computer science school, I was, until recently, working as a DevOps in an energy company: GazelEnergie. <br><br>As a great lover of sciences and with a very serious mindset for my work, I always strive to learn as far as possible in a domain.<br>I am also leading an association for French, English and Japanese Language Exchange: <span class=\"lato text-[#D02B32]\">Gengoffee</span>, founded in France and now performing in both Paris and Tokyo. <br><br>Besides my career, I’m learning Japanese as a hobby, travelling and frequently do sports.",
+            "core": "Freshly graduated with a <span class=\"lato text-[#D02B32]\">Master's Degree</span> at Etna, a computer science school, I was, until recently, working as a DevOps in an energy company: GazelEnergie. <br><br>As a great lover of sciences and with a very serious mindset for my work, I always strive to learn as far as possible in a domain.<br>I am also leading an association for French, English and Japanese Language Exchange: <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.com'>Gengoffee</a></span>, founded in France and now performing in both Paris and Tokyo. <br><br>Besides my career, I’m learning Japanese as a hobby, travelling and frequently do sports.",
             "competences":{
                 "title":"Here's some of my hardskills :",
                 "1":"Docker, Kubernetes",

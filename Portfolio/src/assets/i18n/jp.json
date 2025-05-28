@@ -10,7 +10,7 @@
     "body":{
         "about":{
             "title":"概要",
-            "core": "<span class=\"lato text-[#D02B32]\">修士号取得</span>のためにパリにあるITの学校、ETNAで卒業しました。最近まで、GazelEnergie というエネルギー会社で DevOps として働いていました。<br><br>真面目で科学にとても興味があり、関心がある分野においては、常に向上心と情熱を持って見聞を深めている。<br> 東京とパリでフランス語、英語、日本語の言語交換のために<span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.fr'>Gengoffee</a></span>という団体を発足し、運営している。<br><br>経歴の傍、趣味で日本語を学んでおりとよく運動している。",
+            "core": "<span class=\"lato text-[#D02B32]\">修士号取得</span>のためにパリにあるITの学校、ETNAで卒業しました。最近まで、GazelEnergie というエネルギー会社で DevOps として働いていました。<br><br>真面目で科学にとても興味があり、関心がある分野においては、常に向上心と情熱を持って見聞を深めている。<br> 東京とパリでフランス語、英語、日本語の言語交換のために<span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.com'>Gengoffee</a></span>という団体を発足し、運営している。<br><br>経歴の傍、趣味で日本語を学んでおりとよく運動している。",
             "competences":{
                 "title":"スキルの一部一覧 :",
                 "1":"Docker, Kubernetes",
