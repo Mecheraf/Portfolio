@@ -1,7 +1,7 @@
 <span class="form-inline hidden md:block">
     <div class="md:w-24 fixed items-center flex-col bottom-0 -right-8 lg:right-0 xl:right-8 text-[#1F3D87] hidden md:flex">
         <button (click)="switchLanguage('en')" [ngStyle]="{'font-family': this.translate.currentLang === 'en' ? 'ppeiko' : 'ppeiko-thin'}" class="mb-6 rotate-90">ENG</button>
-        <button (click)="switchLanguage('fr')" [ngStyle]="{'font-family': this.translate.currentLang === ('fr' || 'undefined') ? 'ppeiko' : 'ppeiko-thin'}" class="mb-6 rotate-90 ">FR</button>
+        <button (click)="switchLanguage('fr')" [ngStyle]="{'font-family': this.translate.currentLang === 'fr' ? 'ppeiko' : 'ppeiko-thin'}" class="mb-6 rotate-90 ">FR</button>
         <button (click)="switchLanguage('jp')" [ngStyle]="{'opacity': this.translate.currentLang === 'jp' ? '1' : '0.7'}" class="mb-32 fangsong">日<bR>本<br>語</button>
         <button (click)="copyToClipboard()" class="mb-32 rotate-90 ppeiko">alan.mecheraf&#64;gmail.com</button>
         <div class="border-[#1F3D87] border-solid border border-opacity-100 h-36 Z-0"></div>
