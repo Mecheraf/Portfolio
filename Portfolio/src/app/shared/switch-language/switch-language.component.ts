@@ -6,9 +6,10 @@ import { Clipboard } from '@angular/cdk/clipboard';
 
 
 @Component({
-  selector: 'app-switch-language',
-  templateUrl: './switch-language.component.html',
-  styleUrls: ['./switch-language.component.scss']
+    selector: 'app-switch-language',
+    templateUrl: './switch-language.component.html',
+    styleUrls: ['./switch-language.component.scss'],
+    standalone: false
 })
 export class SwitchLanguageComponent implements OnInit {
   email:string = "alan.mecheraf@gmail.com"
