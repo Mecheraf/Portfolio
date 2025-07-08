@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,36 +19,29 @@ import { SwitchLanguageComponent } from './shared/switch-language/switch-languag
 import { SocialNetworksComponent } from './shared/social-networks/social-networks.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    AboutComponent,
-    ExperiencesComponent,
-    TrainingsComponent,
-    ProjectsComponent,
-    ContactComponent,
-    MainComponent,
-    SwitchLanguageComponent,
-    SocialNetworksComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: httpTranslaterLoader,
-        deps: [HttpClient]
-      }
-    }),
-    BrowserAnimationsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        HeaderComponent,
+        FooterComponent,
+        AboutComponent,
+        ExperiencesComponent,
+        TrainingsComponent,
+        ProjectsComponent,
+        ContactComponent,
+        MainComponent,
+        SwitchLanguageComponent,
+        SocialNetworksComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: httpTranslaterLoader,
+                deps: [HttpClient]
+            }
+        }),
+        BrowserAnimationsModule], providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
 
 export function httpTranslaterLoader(http: HttpClient){
