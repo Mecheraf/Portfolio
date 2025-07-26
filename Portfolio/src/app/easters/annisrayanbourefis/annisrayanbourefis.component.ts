@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { CountdownConfig, CountdownModule } from 'ngx-countdown';
+import { CommonModule } from '@angular/common';
+
 @Component({
   selector: 'app-annisrayanbourefis',
-  imports: [CountdownModule],
   templateUrl: './annisrayanbourefis.component.html',
-  styleUrl: './annisrayanbourefis.component.scss'
+  styleUrl: './annisrayanbourefis.component.scss',
+  standalone: false
 })
 
 

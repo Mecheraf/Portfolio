@@ -19,7 +19,8 @@ import { SwitchLanguageComponent } from './shared/switch-language/switch-languag
 import { SocialNetworksComponent } from './shared/social-networks/social-networks.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BodyComponent } from './body/body.component';
-
+import { AnnisrayanbourefisComponent } from './easters/annisrayanbourefis/annisrayanbourefis.component';
+import { CountdownModule } from 'ngx-countdown';
 
 @NgModule({ declarations: [
         AppComponent,
@@ -33,11 +34,13 @@ import { BodyComponent } from './body/body.component';
         MainComponent,
         SwitchLanguageComponent,
         SocialNetworksComponent,
-        BodyComponent
+        BodyComponent,
+        AnnisrayanbourefisComponent
     ],
     bootstrap: [AppComponent], 
     imports: [BrowserModule,
         AppRoutingModule,
+        CountdownModule,
         TranslateModule.forRoot({
             loader: {
                 provide: TranslateLoader,
