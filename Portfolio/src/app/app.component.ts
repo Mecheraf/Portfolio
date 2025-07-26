@@ -28,6 +28,9 @@ export class AppComponent {
       content: 'Alan Mecheraf; DevOps, Développeur web et mobile expérimenté. Président de l\'association franco-japonaise Gengoffee.'
     });
   }
+  onActivate() {
+    window.scrollTo(0, 0);
+  }
 
   switchLanguage(lang: string){
     this.translate.use(lang);

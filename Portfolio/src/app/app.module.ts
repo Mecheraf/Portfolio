@@ -18,6 +18,8 @@ import { MainComponent } from './main/main.component';
 import { SwitchLanguageComponent } from './shared/switch-language/switch-language.component';
 import { SocialNetworksComponent } from './shared/social-networks/social-networks.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BodyComponent } from './body/body.component';
+
 
 @NgModule({ declarations: [
         AppComponent,
@@ -30,9 +32,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         ContactComponent,
         MainComponent,
         SwitchLanguageComponent,
-        SocialNetworksComponent
+        SocialNetworksComponent,
+        BodyComponent
     ],
-    bootstrap: [AppComponent], imports: [BrowserModule,
+    bootstrap: [AppComponent], 
+    imports: [BrowserModule,
         AppRoutingModule,
         TranslateModule.forRoot({
             loader: {
