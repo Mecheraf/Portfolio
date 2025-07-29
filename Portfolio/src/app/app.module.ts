@@ -21,6 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BodyComponent } from './body/body.component';
 import { AnnisrayanbourefisComponent } from './easters/annisrayanbourefis/annisrayanbourefis.component';
 import { CountdownModule } from 'ngx-countdown';
+import { DainjungComponent } from './easters/dainjung/dainjung.component';
 
 @NgModule({ declarations: [
         AppComponent,
@@ -35,7 +36,8 @@ import { CountdownModule } from 'ngx-countdown';
         SwitchLanguageComponent,
         SocialNetworksComponent,
         BodyComponent,
-        AnnisrayanbourefisComponent
+        AnnisrayanbourefisComponent,
+        DainjungComponent
     ],
     bootstrap: [AppComponent], 
     imports: [BrowserModule,
