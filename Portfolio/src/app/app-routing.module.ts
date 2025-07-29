@@ -6,7 +6,9 @@ import { BodyComponent } from './body/body.component';
 
 const routes: Routes = [
   {path :'', component: BodyComponent},
-  {path :'easters/annisrayanbourefis', component: AnnisrayanbourefisComponent}
+  {path :'easters/annisrayanbourefis', component: AnnisrayanbourefisComponent},
+  {path :'annisrayanbourefis', component: AnnisrayanbourefisComponent},
+  {path : '**', redirectTo : ''}
 ];
 
 @NgModule({
