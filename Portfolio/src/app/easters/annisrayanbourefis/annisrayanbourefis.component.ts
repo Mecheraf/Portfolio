@@ -12,10 +12,6 @@ import { CommonModule } from '@angular/common';
 
 export class AnnisrayanbourefisComponent {
 
-  ngOnInit() {
-    console.log(Date.now());
-    console.log(this.date);
-  }
 
   // This date represents October 4th, 2025 at 6:00 PM
   // Note: JavaScript months are 0-based, so month 9 is actually October
@@ -30,11 +26,7 @@ export class AnnisrayanbourefisComponent {
     format: 'HH:mm:ss',
     stopTime: this.date.getTime()
   };
-
-  onCountdownEvent(event: any) {
-    console.log(event);
-  }
-
+  
   emptyBeer() {
     this.isBeerEmpty = true;
   }
