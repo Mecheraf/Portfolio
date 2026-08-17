@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CountdownConfig, CountdownModule } from 'ngx-countdown';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
   selector: 'app-annisrayanbourefis',
