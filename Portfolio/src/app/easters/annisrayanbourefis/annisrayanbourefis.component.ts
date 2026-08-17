@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { CountdownConfig, CountdownModule } from 'ngx-countdown';
 
 
@@ -6,6 +6,7 @@ import { CountdownConfig, CountdownModule } from 'ngx-countdown';
   selector: 'app-annisrayanbourefis',
   templateUrl: './annisrayanbourefis.component.html',
   styleUrl: './annisrayanbourefis.component.scss',
+  changeDetection: ChangeDetectionStrategy.Eager,
   standalone: false
 })
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Clipboard } from '@angular/cdk/clipboard';
 
@@ -9,6 +9,7 @@ import { Clipboard } from '@angular/cdk/clipboard';
     selector: 'app-switch-language',
     templateUrl: './switch-language.component.html',
     styleUrls: ['./switch-language.component.scss'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class SwitchLanguageComponent implements OnInit {

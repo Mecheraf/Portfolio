@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { CountdownConfig, CountdownModule } from 'ngx-countdown';
 
 @Component({
   selector: 'app-dainjung',
   templateUrl: './dainjung.component.html',
   styleUrl: './dainjung.component.scss',
+  changeDetection: ChangeDetectionStrategy.Eager,
   standalone: false
 })
 export class DainjungComponent {
