@@ -7,8 +7,6 @@ import { DainjungComponent } from './easters/dainjung/dainjung.component';
 
 const routes: Routes = [
   {path :'', component: BodyComponent},
-  {path :'easters/annisrayanbourefis', component: AnnisrayanbourefisComponent},
-  {path : 'easters/dainjung', component: DainjungComponent},
   {path : '**', redirectTo : ''}
 ];
 
