@@ -1,0 +1,5 @@
+[build]
+platforms = [ "nodejs" ]
+
+[nodejs]
+version = "20.20.0"
