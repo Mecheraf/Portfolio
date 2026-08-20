@@ -6,6 +6,7 @@
         <div class="text-[#D02B32] lato-light child:h-fit text-xl
         flex items-center child:inline-block child:mr-8 child:mb-4 scrollbar-mobile overflow-x-scroll text-center
         lg:block lg:items-start lg:child:block lg:overflow-y-scroll lg:scrollbar lg:h-[330px] lg: pl-8 xl:pl-14 lg:overflow-x-auto"> 
+            <h1 (mouseover)="displayExperience('lazard')" class="lg:mb-6 border border-solid border-[#D02B32] w-fit py-1 lg:py-4 px-5 hover:bg-[#D02B32] hover:text-white">{{'body.experiences.lazard.title'|translate}}</h1>
             <h1 (mouseover)="displayExperience('freelance')" class="lg:mb-6 border border-solid border-[#D02B32] w-fit py-1 lg:py-4 px-5 hover:bg-[#D02B32] hover:text-white">{{'body.experiences.freelance.title'|translate}}</h1>
             <h1 (mouseover)="displayExperience('gengoffee')" class="lg:mb-6 border border-solid border-[#D02B32] w-fit py-1 lg:py-4 px-5 hover:bg-[#D02B32] hover:text-white">{{'body.experiences.gengoffee.title'|translate}}</h1>
             <h1 (mouseover)="displayExperience('gazel')" class="lg:mb-6 border border-solid border-[#D02B32] w-fit py-1 lg:py-4 px-5 hover:bg-[#D02B32] hover:text-white">{{'body.experiences.gazel.title'|translate}}</h1>
@@ -15,6 +16,17 @@
         </div>
         <div class="h-96 lg:h-full lg:float-right relative overflow-hidden child:duration-[300ms] text-lg w-[310px] lg:w-auto m-auto lg:m-0
         child:w-[310px] child:lg:w-[350px] child:xl:w-96 child:h-fit child:lg:h-full  child:py-2 child:mt-2 child:lg:mt-0 child:px-5 child:xl:px-7">
+            <div id="lazard" class="max-h-[95%] overflow-y-scroll scrollbar transition-all border border-solid border-[#D02B32] translate-x-[100vw] absolute">
+                <h1 class="text-2xl text-center mt-4 mb-3">{{'body.experiences.lazard.title'|translate}}</h1>
+                <div class="border border-solid border-[#D02B32] m-auto"></div>
+                <h2 class="mt-5 lato-bold opacity-50">{{'body.experiences.lazard.place'|translate}}</h2>
+                <h2 class="text-[#D02B32] lato">{{'body.experiences.lazard.date'|translate}}</h2>
+                <div class="mt-4 mb-3">
+                    <img src="./assets/images/experience_arrow.svg" class="float-left mt-3 mr-4">
+                    <h3 class="lato">{{'body.experiences.lazard.post'|translate}}</h3>
+                </div >
+                <p class="lato-light" [innerHtml]="'body.experiences.lazard.core'|translate"></p>
+            </div>
             <div id="freelance" class="max-h-[95%] overflow-y-scroll scrollbar transition-all border border-solid border-[#D02B32] translate-x-[100vw] absolute">
                 <h1 class="text-2xl text-center mt-4 mb-3">{{'body.experiences.freelance.title'|translate}}</h1>
                 <div class="border border-solid border-[#D02B32] m-auto"></div>

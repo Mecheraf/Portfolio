@@ -10,11 +10,11 @@
     "body":{
         "about":{
             "title":"About",
-            "core": "Freshly graduated with a <span class=\"lato text-[#D02B32]\">Master's Degree</span> at Etna, a computer science school, I was, until recently, working as a DevOps in an energy company: GazelEnergie. <br><br>As a great lover of sciences and with a very serious mindset for my work, I always strive to learn as far as possible in a domain.<br>I am also leading an association for French, English and Japanese Language Exchange: <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.com'>Gengoffee</a></span>, founded in France and now performing in both Paris and Tokyo. <br><br>Besides my career, I’m learning Japanese as a hobby, travelling and frequently do sports.",
+            "core": "Graduated with a <span class=\"lato text-[#D02B32]\">Master's Degree</span> at Etna, a computer science school, I am currently working as a DevOps at DreamIT. <br><br>As a great lover of sciences and with a very serious mindset for my work, I always strive to learn as far as possible in a domain.<br>I am also leading an association for French, English and Japanese Language Exchange: <span class=\"lato text-[#D02B32]\"><a href='https://www.gengoffee.com'>Gengoffee</a></span>, founded in France and now performing in both Paris and Tokyo. <br><br>Besides my career, I’m learning Japanese as a hobby, travelling and frequently do sports.",
             "competences":{
                 "title":"Here's some of my hardskills :",
                 "1":"Docker, Kubernetes",
-                "2":"Azure CLI/Azure Portail",
+                "2":"Azure Cloud/Azure DevOps Server",
                 "3":"Angular, Swift",
                 "4":"SwiftUI, Flutter",
                 "5":"Nodejs, Django",
@@ -65,6 +65,13 @@
                 "date":"August 2022 - Now",
                 "post":"Web, mobile and infra developper",
                 "core":"Conception and development of the website, updates and SEO. Conception and development of a mobile application for the teams of Gengoffee's organization in Tokyo and Paris."
+            },
+            "lazard":{
+                "title":"LAZARD FRERES",
+                "place":"Paris, France",
+                "date":"November 2025 - August 2026",
+                "post":"DevOps/Infra Developer",
+                "core":"Modernisation and industrialisation of CI/CD, security and access management, support and administration of the DevOps and AI environment evolution."
             }
         },
         "trainings":{
